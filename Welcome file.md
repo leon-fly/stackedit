@@ -2,6 +2,7 @@
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. If you have finished with me, you can just create new files by opening the **file explorer** on the left corner of the navigation bar.
 
+ - List item
 
 # Files
 
@@ -142,5 +143,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjYwNzI4MzBdfQ==
+eyJoaXN0b3J5IjpbLTMyOTM1NTM3OCwtMjAyNjA3MjgzMF19
 -->
