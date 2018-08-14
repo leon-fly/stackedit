@@ -11,11 +11,9 @@
  - "Byzantine Generals" problem: Satoshi Nakamoto's solution, which uses the concept of Proof-of-Work to achieve consensus without a central trusted authority.
 
 ### How Bitcoin Works
-**Traditional banking and payment system**
 
-
-
+**Traditional banking and payment system** - Centrali
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2NjY3MDM5LC0xODE0MzY0NTI3XX0=
+eyJoaXN0b3J5IjpbMjYxMDYzNDk0LC0xODE0MzY0NTI3XX0=
 -->
