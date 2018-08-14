@@ -10,10 +10,12 @@
  - "Bitcoin: A Peer-to-Peer Electronic Cash System", 2008, Satoshi Nakamoto
  - "Byzantine Generals" problem: Satoshi Nakamoto's solution, which uses the concept of Proof-of-Work to achieve consensus without a central trusted authority.
 
-TR a
+### How Bitcoin Works
+**Traditional banking and payment system**
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODUyMzMxNCwtMTgxNDM2NDUyN119
+eyJoaXN0b3J5IjpbODc2NjY3MDM5LC0xODE0MzY0NTI3XX0=
 -->
