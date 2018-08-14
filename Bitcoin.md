@@ -12,8 +12,10 @@
 
 ### How Bitcoin Works
 
-**Traditional banking and payment system** - Centrali
+**Traditional banking and payment system** - Centralized
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMDYzNDk0LC0xODE0MzY0NTI3XX0=
+eyJoaXN0b3J5IjpbLTIxMjUxNTMyNDksLTE4MTQzNjQ1MjddfQ
+==
 -->
