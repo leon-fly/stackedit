@@ -14,11 +14,13 @@
 
 **Traditional banking and payment system** - Centralized
 [How does money transfer work?](https://www.quora.com/How-does-money-transfer-between-banks-and-different-countries-work)
+
 **Bitcoin Address**
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzI5NDczNSwtMTM0MDExOTQzLC0yMT
+eyJoaXN0b3J5IjpbLTM5ODM2MzgyNSwtMTM0MDExOTQzLC0yMT
 I1MTUzMjQ5LC0xODE0MzY0NTI3XX0=
 -->
