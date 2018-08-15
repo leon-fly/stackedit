@@ -35,11 +35,15 @@ k is the private key, G is the generator point.
  - The bitcoin address is what appears most commonly in a transaction as the “recipient” of the funds.
  - A Bitcoin address is a unique number that “holds” bitcoin currency. You use the address to receive and send bitcoins.
 
+> A = RIPEMD160(SHA256(K))  
+
+where K is the public key and A is the resulting bitcoin address.
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTEwNDgzNSwtMTU0MjczODY2NCwtMT
+eyJoaXN0b3J5IjpbMTQ3MDMxNjQ1MiwtMTU0MjczODY2NCwtMT
 E2NDUwMzc5MywtMTM0MDExOTQzLC0yMTI1MTUzMjQ5LC0xODE0
 MzY0NTI3XX0=
 -->
