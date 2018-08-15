@@ -16,14 +16,12 @@
 [How does money transfer work?](https://www.quora.com/How-does-money-transfer-between-banks-and-different-countries-work)
 
 **Bitcoin Address**
-
  - A bitcoin address can represent the owner of a private/public key pair, or it can represent some‐ thing else, such as a payment script. 
-
-The bitcoin address is what appears most commonly in a transaction as the “recipi‐ ent” of the funds.
+ - The bitcoin address is what appears most commonly in a transaction as the “recipient” of the funds.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU0MzY3ODYsLTEzNDAxMTk0MywtMj
+eyJoaXN0b3J5IjpbLTExNjQ1MDM3OTMsLTEzNDAxMTk0MywtMj
 EyNTE1MzI0OSwtMTgxNDM2NDUyN119
 -->
