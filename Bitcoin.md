@@ -39,11 +39,12 @@ k is the private key, G is the generator point.
 
 where K is the public key and A is the resulting bitcoin address.
 
-
+**Base58 encoding**
+Base58 is Base64 without the 0 (number zero), O (capital o), l (lower L), I (capital i), and the symbols “+” and “/”.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDMxNjQ1MiwtMTU0MjczODY2NCwtMT
-E2NDUwMzc5MywtMTM0MDExOTQzLC0yMTI1MTUzMjQ5LC0xODE0
-MzY0NTI3XX0=
+eyJoaXN0b3J5IjpbMTQzMjY3NjkwNywxNDcwMzE2NDUyLC0xNT
+QyNzM4NjY0LC0xMTY0NTAzNzkzLC0xMzQwMTE5NDMsLTIxMjUx
+NTMyNDksLTE4MTQzNjQ1MjddfQ==
 -->
