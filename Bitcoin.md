@@ -13,9 +13,11 @@
 ### How Bitcoin Works
 
 **Traditional banking and payment system** - Centralized
-https://www.quora.com/How-does-money-transfer-between-banks-and-different-countries-work
+[How does money transfer work?](https://www.quora.com/How-does-money-transfer-between-banks-and-different-countries-work)
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTAxMzgxOTgsLTIxMjUxNTMyNDksLT
-E4MTQzNjQ1MjddfQ==
+eyJoaXN0b3J5IjpbLTEzNDAxMTk0MywtMjEyNTE1MzI0OSwtMT
+gxNDM2NDUyN119
 -->
