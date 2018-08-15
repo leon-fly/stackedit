@@ -57,16 +57,17 @@ Base58 is Base64 without the 0 (number zero), O (capital o), l (lower L), I (cap
  - private key
 	 - raw 32 bytes
 	 - hex 64 hexadecimal digits
-	 - WIF prefix 
+	 - WIF prefix '5', Base58Check encoding: Base58 with version prefix of 128- and 32-bit checksum
  - public key
+	 - 
 
 #### Vanity Addresses
 Vanity addresses are valid bitcoin addresses that contain human-readable messages.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjQ3Njk0MywtMzA1Mzc4NDUyLC01Mj
-I4MjIwNzYsMTQzMjY3NjkwNywxNDcwMzE2NDUyLC0xNTQyNzM4
-NjY0LC0xMTY0NTAzNzkzLC0xMzQwMTE5NDMsLTIxMjUxNTMyND
-ksLTE4MTQzNjQ1MjddfQ==
+eyJoaXN0b3J5IjpbLTEzODExMzc3MDIsLTMwNTM3ODQ1MiwtNT
+IyODIyMDc2LDE0MzI2NzY5MDcsMTQ3MDMxNjQ1MiwtMTU0Mjcz
+ODY2NCwtMTE2NDUwMzc5MywtMTM0MDExOTQzLC0yMTI1MTUzMj
+Q5LC0xODE0MzY0NTI3XX0=
 -->
