@@ -72,13 +72,15 @@ Two primary types of wallets, distinguished by whether the keys they contain are
  1. Nondeterministic Wallet, where each key is independently generated from a random number.
 2. Deterministic Wallet, where all keys are derived from a single master key. The most commonly used derivation method uses a tree-like structure an is known as a **hierarchical deterministic** or HD wallet.
 
+#### Mnemonic Code Words (BIP-39)
+
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc5Njk1MiwtMTA0NzIzMzgxNSwxMj
-Q0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMDUzNzg0NTIsLTUyMjgy
-MjA3NiwxNDMyNjc2OTA3LDE0NzAzMTY0NTIsLTE1NDI3Mzg2Nj
-QsLTExNjQ1MDM3OTMsLTEzNDAxMTk0MywtMjEyNTE1MzI0OSwt
-MTgxNDM2NDUyN119
+eyJoaXN0b3J5IjpbLTE1MjkyMzM1MTcsLTEwMzc5Njk1MiwtMT
+A0NzIzMzgxNSwxMjQ0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMDUz
+Nzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2OTA3LDE0NzAzMTY0NT
+IsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMsLTEzNDAxMTk0Mywt
+MjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
 -->
