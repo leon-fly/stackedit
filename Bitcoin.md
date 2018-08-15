@@ -65,11 +65,11 @@ Base58 is Base64 without the 0 (number zero), O (capital o), l (lower L), I (cap
 Vanity addresses are valid bitcoin addresses that contain human-readable messages.
 
 ### Wallet
-Bitcoin wallet contains keys (keychain)
+Bitcoin wallet contains keys, not coins. Wallets are keychains containing pairs of private/public keys
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDg5NjMzNSwxMjQ0OTA3NDgyLC0xMz
+eyJoaXN0b3J5IjpbMTEyMTQwMTE4NywxMjQ0OTA3NDgyLC0xMz
 gxMTM3NzAyLC0zMDUzNzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2
 OTA3LDE0NzAzMTY0NTIsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OT
 MsLTEzNDAxMTk0MywtMjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
