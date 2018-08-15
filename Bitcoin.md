@@ -42,13 +42,17 @@ where K is the public key and A is the resulting bitcoin address.
 **Base58 encoding**
 Base58 is Base64 without the 0 (number zero), O (capital o), l (lower L), I (capital i), and the symbols “+” and “/”.
 
-P2PKH (pay-to-public-key hash), bitcoin address tha
-P2SH (pay-to-script hash)
+**P2PKH (pay-to-public-key hash)**
+ - bitcoin address that begin with '1'
+ - 
+
+
+P2SH (pay-to-script hash), bitcoin address that begin with '3'
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzkyMDc4LDE0MzI2NzY5MDcsMTQ3MD
-MxNjQ1MiwtMTU0MjczODY2NCwtMTE2NDUwMzc5MywtMTM0MDEx
-OTQzLC0yMTI1MTUzMjQ5LC0xODE0MzY0NTI3XX0=
+eyJoaXN0b3J5IjpbLTE4Mjg3MjUxMzEsMTQzMjY3NjkwNywxND
+cwMzE2NDUyLC0xNTQyNzM4NjY0LC0xMTY0NTAzNzkzLC0xMzQw
+MTE5NDMsLTIxMjUxNTMyNDksLTE4MTQzNjQ1MjddfQ==
 -->
