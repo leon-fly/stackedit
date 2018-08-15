@@ -24,9 +24,12 @@
 
 #### Public Key
 
+Elliptic Curve Cryptography
+
 > K=k*G
 
-k
+k is the private key, G is the generator point.
+
 #### Bitcoin Address
  - A bitcoin address can represent the owner of a private/public key pair, or it can represent some‐ thing else, such as a payment script. 
  - The bitcoin address is what appears most commonly in a transaction as the “recipient” of the funds.
@@ -36,6 +39,6 @@ k
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTk1Njk5OSwtMTE2NDUwMzc5MywtMT
-M0MDExOTQzLC0yMTI1MTUzMjQ5LC0xODE0MzY0NTI3XX0=
+eyJoaXN0b3J5IjpbLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMsLT
+EzNDAxMTk0MywtMjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
 -->
