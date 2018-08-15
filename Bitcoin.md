@@ -39,9 +39,6 @@ k is the private key, G is the generator point.
 
 where K is the public key and A is the resulting bitcoin address.
 
-**Base58 encoding**
-Base58 is Base64 without the 0 (number zero), O (capital o), l (lower L), I (capital i), and the symbols “+” and “/”.
-
 **P2PKH (pay-to-public-key hash) Address**
  - bitcoin address that begin with '1'
  - one public key hash and one private key signature as proof of ownership
@@ -51,12 +48,19 @@ Base58 is Base64 without the 0 (number zero), O (capital o), l (lower L), I (cap
  - require M signatures from a total of N keys
 > script hash = RIPEMD160(SHA256(script))
 
-**Vanity Addresses**
+#### Encoding & Format
+
+**Base58 encoding**
+Base58 is Base64 without the 0 (number zero), O (capital o), l (lower L), I (capital i), and the symbols “+” and “/”.
+
+
+#### Vanity Addresses
 Vanity addresses are valid bitcoin addresses that contain human-readable messages.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjgyMjA3NiwxNDMyNjc2OTA3LDE0Nz
-AzMTY0NTIsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMsLTEzNDAx
-MTk0MywtMjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
+eyJoaXN0b3J5IjpbMzkxNTIyNzgsLTUyMjgyMjA3NiwxNDMyNj
+c2OTA3LDE0NzAzMTY0NTIsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3
+OTMsLTEzNDAxMTk0MywtMjEyNTE1MzI0OSwtMTgxNDM2NDUyN1
+19
 -->
