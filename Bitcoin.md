@@ -15,7 +15,11 @@
 **Traditional banking and payment system** - Centralized
 [How does money transfer work?](https://www.quora.com/How-does-money-transfer-between-banks-and-different-countries-work)
 
-**Bitcoin Address**
+### Keys and Address
+
+#### Private Key
+#### Public Key
+#### Bitcoin Address
  - A bitcoin address can represent the owner of a private/public key pair, or it can represent some‐ thing else, such as a payment script. 
  - The bitcoin address is what appears most commonly in a transaction as the “recipient” of the funds.
  - A Bitcoin address is a unique number that “holds” bitcoin currency. You use the address to receive and send bitcoins.
@@ -23,6 +27,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzNjMxNTg2LC0xMTY0NTAzNzkzLC0xMz
-QwMTE5NDMsLTIxMjUxNTMyNDksLTE4MTQzNjQ1MjddfQ==
+eyJoaXN0b3J5IjpbMTk4MTIzMzQxNiwtMTE2NDUwMzc5MywtMT
+M0MDExOTQzLC0yMTI1MTUzMjQ5LC0xODE0MzY0NTI3XX0=
 -->
