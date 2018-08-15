@@ -81,14 +81,27 @@ Two primary types of wallets, distinguished by whether the keys they contain are
  5. Map each 11-bit value to a word from the predefined dictionary of 2048 words.
  6. The mnemonic code is the sequence of words.
 
-    enter code here
+```mermaid
+graph TB
+A[128 bits random sequence]
+B(BIP English Word List, 2048 words)
+C[128 bits + 4 bits Checksum]
+D[12 segments of 11bits]
+E[12 mnemonic words]
+A --> C
+A --> |First 4 bits of SHA256|C
+C -->D
+D --> B
+B --> E
+
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTcwNTg0MywtMTYwMTQ0NjE5MCwtMT
-AzNzk2OTUyLC0xMDQ3MjMzODE1LDEyNDQ5MDc0ODIsLTEzODEx
-Mzc3MDIsLTMwNTM3ODQ1MiwtNTIyODIyMDc2LDE0MzI2NzY5MD
-csMTQ3MDMxNjQ1MiwtMTU0MjczODY2NCwtMTE2NDUwMzc5Mywt
-MTM0MDExOTQzLC0yMTI1MTUzMjQ5LC0xODE0MzY0NTI3XX0=
+eyJoaXN0b3J5IjpbLTE4MTc4NDI3NjEsLTE2MDE0NDYxOTAsLT
+EwMzc5Njk1MiwtMTA0NzIzMzgxNSwxMjQ0OTA3NDgyLC0xMzgx
+MTM3NzAyLC0zMDUzNzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2OT
+A3LDE0NzAzMTY0NTIsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMs
+LTEzNDAxMTk0MywtMjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
 -->
