@@ -70,13 +70,15 @@ Vanity addresses are valid bitcoin addresses that contain human-readable message
 
 Two primary types of wallets, distinguished by whether the keys they contain are lated to each other or not : 
  1. Nondeterministic Wallet, where each key is independently generated from a random number.
-2. Deterministic Wallet, where all keys are derived from a single master key. The most commonly used derivation method uses a tree-like structure an is known as a
+2. Deterministic Wallet, where all keys are derived from a single master key. The most commonly used derivation method uses a tree-like structure an is known as a **hierarchical deterministic** or HD wallet.
+
+
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxOTAyMjY1LC0xMDQ3MjMzODE1LDEyND
-Q5MDc0ODIsLTEzODExMzc3MDIsLTMwNTM3ODQ1MiwtNTIyODIy
-MDc2LDE0MzI2NzY5MDcsMTQ3MDMxNjQ1MiwtMTU0MjczODY2NC
-wtMTE2NDUwMzc5MywtMTM0MDExOTQzLC0yMTI1MTUzMjQ5LC0x
-ODE0MzY0NTI3XX0=
+eyJoaXN0b3J5IjpbLTEwMzc5Njk1MiwtMTA0NzIzMzgxNSwxMj
+Q0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMDUzNzg0NTIsLTUyMjgy
+MjA3NiwxNDMyNjc2OTA3LDE0NzAzMTY0NTIsLTE1NDI3Mzg2Nj
+QsLTExNjQ1MDM3OTMsLTEzNDAxMTk0MywtMjEyNTE1MzI0OSwt
+MTgxNDM2NDUyN119
 -->
