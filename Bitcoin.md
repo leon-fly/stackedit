@@ -74,13 +74,15 @@ Two primary types of wallets, distinguished by whether the keys they contain are
 
 #### Mnemonic Code Words (BIP-39)
 
+ 1. Create a random sequence of 128 to 256 bits.
+ 2. Create a checksum of the random sequece
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjkyMzM1MTcsLTEwMzc5Njk1MiwtMT
-A0NzIzMzgxNSwxMjQ0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMDUz
-Nzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2OTA3LDE0NzAzMTY0NT
-IsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMsLTEzNDAxMTk0Mywt
-MjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
+eyJoaXN0b3J5IjpbNzI4ODA5NjksLTEwMzc5Njk1MiwtMTA0Nz
+IzMzgxNSwxMjQ0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMDUzNzg0
+NTIsLTUyMjgyMjA3NiwxNDMyNjc2OTA3LDE0NzAzMTY0NTIsLT
+E1NDI3Mzg2NjQsLTExNjQ1MDM3OTMsLTEzNDAxMTk0MywtMjEy
+NTE1MzI0OSwtMTgxNDM2NDUyN119
 -->
