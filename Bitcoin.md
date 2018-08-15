@@ -24,6 +24,9 @@
 
 #### Public Key
 
+> K=k*G
+
+k
 #### Bitcoin Address
  - A bitcoin address can represent the owner of a private/public key pair, or it can represent some‐ thing else, such as a payment script. 
  - The bitcoin address is what appears most commonly in a transaction as the “recipient” of the funds.
@@ -33,6 +36,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk0Nzk0ODYsLTExNjQ1MDM3OTMsLT
-EzNDAxMTk0MywtMjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
+eyJoaXN0b3J5IjpbMTMyNTk1Njk5OSwtMTE2NDUwMzc5MywtMT
+M0MDExOTQzLC0yMTI1MTUzMjQ5LC0xODE0MzY0NTI3XX0=
 -->
