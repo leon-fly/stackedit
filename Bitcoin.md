@@ -95,17 +95,17 @@ D --> B
 B --> E
 ```
 
-| Entropy (bits) | Checksum (bits) | Entropy + Checksum |
-|--|--|--|
-|  |  |
+| Entropy (bits) | Checksum (bits) | Entropy + Checksum (bits) | 	Mnemonic Length (words) |
+|--|--|--|--|
+| d |  | | |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxOTUzNjI4LC0xNjAxNDQ2MTkwLC0xMD
-M3OTY5NTIsLTEwNDcyMzM4MTUsMTI0NDkwNzQ4MiwtMTM4MTEz
-NzcwMiwtMzA1Mzc4NDUyLC01MjI4MjIwNzYsMTQzMjY3NjkwNy
-wxNDcwMzE2NDUyLC0xNTQyNzM4NjY0LC0xMTY0NTAzNzkzLC0x
-MzQwMTE5NDMsLTIxMjUxNTMyNDksLTE4MTQzNjQ1MjddfQ==
+eyJoaXN0b3J5IjpbLTExNDQ4MzE4NzMsLTE2MDE0NDYxOTAsLT
+EwMzc5Njk1MiwtMTA0NzIzMzgxNSwxMjQ0OTA3NDgyLC0xMzgx
+MTM3NzAyLC0zMDUzNzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2OT
+A3LDE0NzAzMTY0NTIsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMs
+LTEzNDAxMTk0MywtMjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
 -->
