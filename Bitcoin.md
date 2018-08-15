@@ -78,14 +78,15 @@ Two primary types of wallets, distinguished by whether the keys they contain are
  2. Create a checksum of the random sequence by taking the first bits of its SHA256 hash.
  3. Add the checksum to the end of the random sequence.
  4. Divide the sequence into sections of 11bits
- 5. Map each 11-bit value to a word from the predefined dictionary of 2048 wor
+ 5. Map each 11-bit value to a word from the predefined dictionary of 2048 words.
+ 6. The mnemonic code is the sequence of words.
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODkyOTY1OSwtMTAzNzk2OTUyLC0xMD
-Q3MjMzODE1LDEyNDQ5MDc0ODIsLTEzODExMzc3MDIsLTMwNTM3
-ODQ1MiwtNTIyODIyMDc2LDE0MzI2NzY5MDcsMTQ3MDMxNjQ1Mi
-wtMTU0MjczODY2NCwtMTE2NDUwMzc5MywtMTM0MDExOTQzLC0y
-MTI1MTUzMjQ5LC0xODE0MzY0NTI3XX0=
+eyJoaXN0b3J5IjpbLTE2MDE0NDYxOTAsLTEwMzc5Njk1MiwtMT
+A0NzIzMzgxNSwxMjQ0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMDUz
+Nzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2OTA3LDE0NzAzMTY0NT
+IsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMsLTEzNDAxMTk0Mywt
+MjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
 -->
