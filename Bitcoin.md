@@ -81,12 +81,14 @@ Two primary types of wallets, distinguished by whether the keys they contain are
  5. Map each 11-bit value to a word from the predefined dictionary of 2048 words.
  6. The mnemonic code is the sequence of words.
 
- 
+    enter code here
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDE0NDYxOTAsLTEwMzc5Njk1MiwtMT
-A0NzIzMzgxNSwxMjQ0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMDUz
-Nzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2OTA3LDE0NzAzMTY0NT
-IsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMsLTEzNDAxMTk0Mywt
-MjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
+eyJoaXN0b3J5IjpbMTg2MTcwNTg0MywtMTYwMTQ0NjE5MCwtMT
+AzNzk2OTUyLC0xMDQ3MjMzODE1LDEyNDQ5MDc0ODIsLTEzODEx
+Mzc3MDIsLTMwNTM3ODQ1MiwtNTIyODIyMDc2LDE0MzI2NzY5MD
+csMTQ3MDMxNjQ1MiwtMTU0MjczODY2NCwtMTE2NDUwMzc5Mywt
+MTM0MDExOTQzLC0yMTI1MTUzMjQ5LC0xODE0MzY0NTI3XX0=
 -->
