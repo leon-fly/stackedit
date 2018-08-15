@@ -97,13 +97,17 @@ B --> E
 
 | Entropy (bits) | Checksum (bits) | Entropy + Checksum (bits) | 	Mnemonic Length (words) |
 |--|--|--|--|
-| d |  | | |
+| 128 | 4 | 132 | 12 |
+| 160 | 5 | 165 | 15 |
+| 192 | 6 | 165 | 15 |
+| 224 | 7 | 165 | 15 |
+| 256 | 8 | 165 | 15 |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ4MzE4NzMsLTE2MDE0NDYxOTAsLT
+eyJoaXN0b3J5IjpbLTE0ODcwOTcwMDUsLTE2MDE0NDYxOTAsLT
 EwMzc5Njk1MiwtMTA0NzIzMzgxNSwxMjQ0OTA3NDgyLC0xMzgx
 MTM3NzAyLC0zMDUzNzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2OT
 A3LDE0NzAzMTY0NTIsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMs
