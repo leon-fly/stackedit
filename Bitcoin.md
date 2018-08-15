@@ -24,7 +24,7 @@
 
 #### Public Key
 
-Elliptic Curve Cryptography
+[Elliptic Curve Cryptography](https://www.wolframalpha.com/input/?i=Elliptic%20Curve)
 
 > K=k*G
 
@@ -39,6 +39,7 @@ k is the private key, G is the generator point.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMsLT
-EzNDAxMTk0MywtMjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
+eyJoaXN0b3J5IjpbMTkzNTEwNDgzNSwtMTU0MjczODY2NCwtMT
+E2NDUwMzc5MywtMTM0MDExOTQzLC0yMTI1MTUzMjQ5LC0xODE0
+MzY0NTI3XX0=
 -->
