@@ -18,7 +18,7 @@
 ### Keys and Address
 
 #### Private Key
-256 bits as 64 hexadecimal digits:   
+256 bits as 64 hexadecimal digits:
 
     1E99423A4ED27608A15A2616A2B0E9E52CED330AC530EDCC32C8FFC6A526AEDD
 
@@ -33,6 +33,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTk0OTI5NTYsLTExNjQ1MDM3OTMsLT
+eyJoaXN0b3J5IjpbLTExMTk0Nzk0ODYsLTExNjQ1MDM3OTMsLT
 EzNDAxMTk0MywtMjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
 -->
