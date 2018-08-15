@@ -18,10 +18,11 @@
 **Bitcoin Address**
  - A bitcoin address can represent the owner of a private/public key pair, or it can represent some‐ thing else, such as a payment script. 
  - The bitcoin address is what appears most commonly in a transaction as the “recipient” of the funds.
+ - A Bitcoin address is a unique number that “holds” bitcoin currency. You use the address to receive and send bitcoins.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ1MDM3OTMsLTEzNDAxMTk0MywtMj
-EyNTE1MzI0OSwtMTgxNDM2NDUyN119
+eyJoaXN0b3J5IjpbOTYzNjMxNTg2LC0xMTY0NTAzNzkzLC0xMz
+QwMTE5NDMsLTIxMjUxNTMyNDksLTE4MTQzNjQ1MjddfQ==
 -->
