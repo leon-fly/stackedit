@@ -53,14 +53,16 @@ where K is the public key and A is the resulting bitcoin address.
 **Base58 encoding**
 Base58 is Base64 without the 0 (number zero), O (capital o), l (lower L), I (capital i), and the symbols “+” and “/”.
 
+**Keys formats**
+ - List item
 
 #### Vanity Addresses
 Vanity addresses are valid bitcoin addresses that contain human-readable messages.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxNTIyNzgsLTUyMjgyMjA3NiwxNDMyNj
-c2OTA3LDE0NzAzMTY0NTIsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3
-OTMsLTEzNDAxMTk0MywtMjEyNTE1MzI0OSwtMTgxNDM2NDUyN1
-19
+eyJoaXN0b3J5IjpbLTMwNTM3ODQ1MiwtNTIyODIyMDc2LDE0Mz
+I2NzY5MDcsMTQ3MDMxNjQ1MiwtMTU0MjczODY2NCwtMTE2NDUw
+Mzc5MywtMTM0MDExOTQzLC0yMTI1MTUzMjQ5LC0xODE0MzY0NT
+I3XX0=
 -->
