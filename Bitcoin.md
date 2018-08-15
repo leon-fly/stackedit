@@ -45,12 +45,17 @@ Base58 is Base64 without the 0 (number zero), O (capital o), l (lower L), I (cap
 **P2PKH (pay-to-public-key hash) Address**
  - bitcoin address that begin with '1'
  - one public key hash and one private key signature as proof of ownership
+
 **P2SH (pay-to-script hash)**
  - bitcoin address that begin with '3'
  - require M signatures from a total of N keys
+> script hash = RIPEMD160(SHA256(script))
 
+**Mastering Bitcoin
+
+Vanity Addresses
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MjUwNDUzNywxNDMyNjc2OTA3LDE0Nz
+eyJoaXN0b3J5IjpbLTMxMzEyNDg1NCwxNDMyNjc2OTA3LDE0Nz
 AzMTY0NTIsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMsLTEzNDAx
 MTk0MywtMjEyNTE1MzI0OSwtMTgxNDM2NDUyN119
 -->
