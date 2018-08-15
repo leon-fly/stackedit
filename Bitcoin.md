@@ -69,15 +69,12 @@ Vanity addresses are valid bitcoin addresses that contain human-readable message
 **Bitcoin wallet** contains keys, not coins. Wallets are keychains containing pairs of private/public keys. Users sign transactions with the keys. The coins are stored on the blockchains in the form of transaction output.
 
 Two primary types of wallets, distinguished by whether the keys they contain are lated to each other or not : 
- -
-
- 1. List item
-
- Nondeterministic Wallet, where each key is independently generated from a random number.
- - Deterministic Wallet, where all keys are derived from a single master key.
+ 1. Nondeterministic Wallet, where each key is independently generated from a random number.
+2. Deterministic Wallet, where all keys are derived from a single master key.
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjE1NDAwOTQsMTI0NDkwNzQ4MiwtMT
+eyJoaXN0b3J5IjpbLTEwNDcyMzM4MTUsMTI0NDkwNzQ4MiwtMT
 M4MTEzNzcwMiwtMzA1Mzc4NDUyLC01MjI4MjIwNzYsMTQzMjY3
 NjkwNywxNDcwMzE2NDUyLC0xNTQyNzM4NjY0LC0xMTY0NTAzNz
 kzLC0xMzQwMTE5NDMsLTIxMjUxNTMyNDksLTE4MTQzNjQ1Mjdd
