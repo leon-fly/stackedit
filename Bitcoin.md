@@ -118,6 +118,32 @@ C --> |2048 rounds|D
 
 ### Transaction
 
+Sample transaction in JSON:
+```json
+{
+  "version": 1,
+  "locktime": 0,
+  "vin": [
+    {
+      "txid": "7957a35fe64f80d234d76d83a2a8f1a0d8149a41d81de548f0a65a8a999f6f18",
+      "vout": 0,
+      "scriptSig": "3045022100884d142d86652a3f47ba4746ec719bbfbd040a570b1deccbb6498c75c4ae24cb02204 b9f039ff08df09cbe9f6addac960298cad530a863ea8f53982c09db8f6e3813[ALL] 0484ecc0d46f1918b30928fa0e4ed99f16a0fb4fde0735e7ade8416ab9fe423cc5412336376789d1 72787ec3457eee41c04f4938de5cc17b4a10fa336a8d752adf",
+      "sequence": 4294967295
+    }
+  ],
+  "vout": [
+    {
+      "value": 0.015,
+      "scriptPubKey": "OP_DUP OP_HASH160\n    ab68025513c3dbd2f7b92a94e0581f5d50f654e7 OP_EQUALVERIFY OP_CHECKSIG"
+    },
+    {
+      "value": 0.0845,
+      "scriptPubKey": "OP_DUP OP_HASH160 7f9b1a7fb68d60c536c2fd8aeaa53a8f3cc025a8 OP_EQUALVERIFY OP_CHECKSIG"
+    }
+  ]
+}
+```
+
 Transaction outputs consist of two parts:
 
  - An amount of bitcoin, denominated in satoshis, the smallest bitcoin
@@ -128,7 +154,7 @@ Transaction outputs consist of two parts:
 The cryptographic puzzle is also known as a locking script, a witness script, or a scriptPubKey.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTgzMjcyMywtMTIzNTY3OTMzNCwxMz
+eyJoaXN0b3J5IjpbMTIxMjc2ODMyMywtMTIzNTY3OTMzNCwxMz
 g1NzYwMjc5LC0xNjAxNDQ2MTkwLC0xMDM3OTY5NTIsLTEwNDcy
 MzM4MTUsMTI0NDkwNzQ4MiwtMTM4MTEzNzcwMiwtMzA1Mzc4ND
 UyLC01MjI4MjIwNzYsMTQzMjY3NjkwNywxNDcwMzE2NDUyLC0x
