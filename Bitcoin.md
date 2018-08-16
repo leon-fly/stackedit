@@ -123,16 +123,12 @@ Transaction outputs consist of two parts:
  - An amount of bitcoin, denominated in satoshis, the smallest bitcoin
    unit
  - A cryptographic puzzle that determines the conditions required
-   to spend the
+   to spend the output  
 
-
-output  
-The cryptographic puzzle is also known as a locking script, a witness script, or a
-
-scriptPubKey.
+The cryptographic puzzle is also known as a locking script, a witness script, or a scriptPubKey.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDYxMjk2NywtMTIzNTY3OTMzNCwxMz
+eyJoaXN0b3J5IjpbLTQzMTgzMjcyMywtMTIzNTY3OTMzNCwxMz
 g1NzYwMjc5LC0xNjAxNDQ2MTkwLC0xMDM3OTY5NTIsLTEwNDcy
 MzM4MTUsMTI0NDkwNzQ4MiwtMTM4MTEzNzcwMiwtMzA1Mzc4ND
 UyLC01MjI4MjIwNzYsMTQzMjY3NjkwNywxNDcwMzE2NDUyLC0x
