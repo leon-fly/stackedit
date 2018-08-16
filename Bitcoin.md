@@ -134,7 +134,7 @@ Sample transaction in JSON:
   "vout": [
     {
       "value": 0.015,
-      "scriptPubKey": "OP_DUP OP_HASH160\n    ab68025513c3dbd2f7b92a94e0581f5d50f654e7 OP_EQUALVERIFY OP_CHECKSIG"
+      "scriptPubKey": "OP_DUP OP_HASH160    ab68025513c3dbd2f7b92a94e0581f5d50f654e7 OP_EQUALVERIFY OP_CHECKSIG"
     },
     {
       "value": 0.0845,
@@ -154,10 +154,10 @@ Transaction outputs consist of two parts:
 The cryptographic puzzle is also known as a locking script, a witness script, or a scriptPubKey.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjc2ODMyMywtMTIzNTY3OTMzNCwxMz
-g1NzYwMjc5LC0xNjAxNDQ2MTkwLC0xMDM3OTY5NTIsLTEwNDcy
-MzM4MTUsMTI0NDkwNzQ4MiwtMTM4MTEzNzcwMiwtMzA1Mzc4ND
-UyLC01MjI4MjIwNzYsMTQzMjY3NjkwNywxNDcwMzE2NDUyLC0x
-NTQyNzM4NjY0LC0xMTY0NTAzNzkzLC0xMzQwMTE5NDMsLTIxMj
-UxNTMyNDksLTE4MTQzNjQ1MjddfQ==
+eyJoaXN0b3J5IjpbLTExNzg0OTU0NjUsLTEyMzU2NzkzMzQsMT
+M4NTc2MDI3OSwtMTYwMTQ0NjE5MCwtMTAzNzk2OTUyLC0xMDQ3
+MjMzODE1LDEyNDQ5MDc0ODIsLTEzODExMzc3MDIsLTMwNTM3OD
+Q1MiwtNTIyODIyMDc2LDE0MzI2NzY5MDcsMTQ3MDMxNjQ1Miwt
+MTU0MjczODY2NCwtMTE2NDUwMzc5MywtMTM0MDExOTQzLC0yMT
+I1MTUzMjQ5LC0xODE0MzY0NTI3XX0=
 -->
