@@ -153,9 +153,9 @@ Transaction outputs consist of two parts:
 
 The cryptographic puzzle is also known as a locking script, a witness script, or a scriptPubKey.
 
-The first part of an input is a pointer to an UTXO by reference to the transaction hash and sequence number where the UTXO is recorded in the blockchain.
+The first part of an transaction input is a pointer to an UTXO by reference to the transaction hash and sequence number where the UTXO is recorded in the blockchain.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDg1NzIzNCwtMTA1ODM1NDkyNywtMT
+eyJoaXN0b3J5IjpbMTk0NjQxNDkyOCwtMTA1ODM1NDkyNywtMT
 E3ODQ5NTQ2NSwtMTIzNTY3OTMzNCwxMzg1NzYwMjc5LC0xNjAx
 NDQ2MTkwLC0xMDM3OTY5NTIsLTEwNDcyMzM4MTUsMTI0NDkwNz
 Q4MiwtMTM4MTEzNzcwMiwtMzA1Mzc4NDUyLC01MjI4MjIwNzYs
