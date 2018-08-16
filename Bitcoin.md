@@ -157,12 +157,14 @@ The first part of an transaction input is a pointer to an UTXO by reference to t
 
 #### Transaction Fees
 Transaction fees are calculated based on the size of the transaction in kilobytes, not the value of the transaction in bitcoin. Transaction fees are collected by the miner who mines the block that records the transaction on the blockchain.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTcyOTg3NiwxOTQ2NDE0OTI4LC0xMD
-U4MzU0OTI3LC0xMTc4NDk1NDY1LC0xMjM1Njc5MzM0LDEzODU3
-NjAyNzksLTE2MDE0NDYxOTAsLTEwMzc5Njk1MiwtMTA0NzIzMz
-gxNSwxMjQ0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMDUzNzg0NTIs
-LTUyMjgyMjA3NiwxNDMyNjc2OTA3LDE0NzAzMTY0NTIsLTE1ND
-I3Mzg2NjQsLTExNjQ1MDM3OTMsLTEzNDAxMTk0MywtMjEyNTE1
-MzI0OSwtMTgxNDM2NDUyN119
+eyJoaXN0b3J5IjpbMTE3OTI2ODM2MCwtNTk1NzI5ODc2LDE5ND
+Y0MTQ5MjgsLTEwNTgzNTQ5MjcsLTExNzg0OTU0NjUsLTEyMzU2
+NzkzMzQsMTM4NTc2MDI3OSwtMTYwMTQ0NjE5MCwtMTAzNzk2OT
+UyLC0xMDQ3MjMzODE1LDEyNDQ5MDc0ODIsLTEzODExMzc3MDIs
+LTMwNTM3ODQ1MiwtNTIyODIyMDc2LDE0MzI2NzY5MDcsMTQ3MD
+MxNjQ1MiwtMTU0MjczODY2NCwtMTE2NDUwMzc5MywtMTM0MDEx
+OTQzLC0yMTI1MTUzMjQ5XX0=
 -->
