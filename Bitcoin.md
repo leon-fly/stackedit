@@ -155,13 +155,14 @@ The cryptographic puzzle is also known as a locking script, a witness script, or
 
 The first part of an transaction input is a pointer to an UTXO by reference to the transaction hash and sequence number where the UTXO is recorded in the blockchain.
 
-Transaction Fees
+#### Transaction Fees
+Transaction fees are calculated based on the size of the transaction in kilobytes, not the value of the transaction in bitcoin.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ2OTY2NzUsMTk0NjQxNDkyOCwtMT
-A1ODM1NDkyNywtMTE3ODQ5NTQ2NSwtMTIzNTY3OTMzNCwxMzg1
-NzYwMjc5LC0xNjAxNDQ2MTkwLC0xMDM3OTY5NTIsLTEwNDcyMz
-M4MTUsMTI0NDkwNzQ4MiwtMTM4MTEzNzcwMiwtMzA1Mzc4NDUy
-LC01MjI4MjIwNzYsMTQzMjY3NjkwNywxNDcwMzE2NDUyLC0xNT
-QyNzM4NjY0LC0xMTY0NTAzNzkzLC0xMzQwMTE5NDMsLTIxMjUx
-NTMyNDksLTE4MTQzNjQ1MjddfQ==
+eyJoaXN0b3J5IjpbMTQ0NDA3OTg5LDE5NDY0MTQ5MjgsLTEwNT
+gzNTQ5MjcsLTExNzg0OTU0NjUsLTEyMzU2NzkzMzQsMTM4NTc2
+MDI3OSwtMTYwMTQ0NjE5MCwtMTAzNzk2OTUyLC0xMDQ3MjMzOD
+E1LDEyNDQ5MDc0ODIsLTEzODExMzc3MDIsLTMwNTM3ODQ1Miwt
+NTIyODIyMDc2LDE0MzI2NzY5MDcsMTQ3MDMxNjQ1MiwtMTU0Mj
+czODY2NCwtMTE2NDUwMzc5MywtMTM0MDExOTQzLC0yMTI1MTUz
+MjQ5LC0xODE0MzY0NTI3XX0=
 -->
