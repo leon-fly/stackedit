@@ -116,13 +116,26 @@ C --> |2048 rounds|D
 
 ```
 
+### Transaction
 
+Transaction outputs consist of two parts:
+
+ - An amount of bitcoin, denominated in satoshis, the smallest bitcoin
+   unit
+ - A cryptographic puzzle that determines the conditions required
+   to spend the
+
+
+output  
+The cryptographic puzzle is also known as a locking script, a witness script, or a
+
+scriptPubKey.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjgwNTY4LC0xMjM1Njc5MzM0LDEzOD
-U3NjAyNzksLTE2MDE0NDYxOTAsLTEwMzc5Njk1MiwtMTA0NzIz
-MzgxNSwxMjQ0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMDUzNzg0NT
-IsLTUyMjgyMjA3NiwxNDMyNjc2OTA3LDE0NzAzMTY0NTIsLTE1
-NDI3Mzg2NjQsLTExNjQ1MDM3OTMsLTEzNDAxMTk0MywtMjEyNT
-E1MzI0OSwtMTgxNDM2NDUyN119
+eyJoaXN0b3J5IjpbMTQxNDYxMjk2NywtMTIzNTY3OTMzNCwxMz
+g1NzYwMjc5LC0xNjAxNDQ2MTkwLC0xMDM3OTY5NTIsLTEwNDcy
+MzM4MTUsMTI0NDkwNzQ4MiwtMTM4MTEzNzcwMiwtMzA1Mzc4ND
+UyLC01MjI4MjIwNzYsMTQzMjY3NjkwNywxNDcwMzE2NDUyLC0x
+NTQyNzM4NjY0LC0xMTY0NTAzNzkzLC0xMzQwMTE5NDMsLTIxMj
+UxNTMyNDksLTE4MTQzNjQ1MjddfQ==
 -->
