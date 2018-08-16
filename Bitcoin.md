@@ -158,13 +158,16 @@ The first part of an transaction input is a pointer to an UTXO by reference to t
 #### Transaction Fees
 Transaction fees are calculated based on the size of the transaction in kilobytes, not the value of the transaction in bitcoin. Transaction fees are collected by the miner who mines the block that records the transaction on the blockchain.
 
+**Input/Sender Address**
+When the blockchain explorer retrieved the transaction it also retrieved the previous trans‐ action referenced in the input and extracted the first output from that older transac‐ tion. Within that output is a locking script that locks the UTXO to Alice’s public key hash (a P2PKH script). The blockchain explorer extracted the public key hash and encoded it using Base58Check encoding to produce and display the bitcoin address that represents that public key.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTI2ODM2MCwtNTk1NzI5ODc2LDE5ND
-Y0MTQ5MjgsLTEwNTgzNTQ5MjcsLTExNzg0OTU0NjUsLTEyMzU2
-NzkzMzQsMTM4NTc2MDI3OSwtMTYwMTQ0NjE5MCwtMTAzNzk2OT
-UyLC0xMDQ3MjMzODE1LDEyNDQ5MDc0ODIsLTEzODExMzc3MDIs
-LTMwNTM3ODQ1MiwtNTIyODIyMDc2LDE0MzI2NzY5MDcsMTQ3MD
-MxNjQ1MiwtMTU0MjczODY2NCwtMTE2NDUwMzc5MywtMTM0MDEx
-OTQzLC0yMTI1MTUzMjQ5XX0=
+eyJoaXN0b3J5IjpbLTE4MjUwNjU3NjUsLTU5NTcyOTg3NiwxOT
+Q2NDE0OTI4LC0xMDU4MzU0OTI3LC0xMTc4NDk1NDY1LC0xMjM1
+Njc5MzM0LDEzODU3NjAyNzksLTE2MDE0NDYxOTAsLTEwMzc5Nj
+k1MiwtMTA0NzIzMzgxNSwxMjQ0OTA3NDgyLC0xMzgxMTM3NzAy
+LC0zMDUzNzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2OTA3LDE0Nz
+AzMTY0NTIsLTE1NDI3Mzg2NjQsLTExNjQ1MDM3OTMsLTEzNDAx
+MTk0MywtMjEyNTE1MzI0OV19
 -->
