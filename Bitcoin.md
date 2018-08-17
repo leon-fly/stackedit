@@ -161,13 +161,17 @@ Transaction fees are calculated based on the size of the transaction in kilobyte
 **Input/Sender Address**
 When the blockchain explorer retrieved the transaction it also retrieved the previous trans‐ action referenced in the input and extracted the first output from that older transaction. Within that output is a locking script that locks the UTXO to Alice’s public key hash (a P2PKH script). The blockchain explorer extracted the public key hash and encoded it using Base58Check encoding to produce and display the bitcoin address that represents that public key.
 
-#### Transaction ID (Tx)
+#### Transaction ID (TxID) generation
+
+https://bitcoin.stackexchange.com/questions/2177/how-to-calculate-a-hash-of-a-tx
+https://bitcoin.stackexchange.com/questions/32765/how-do-i-calculate-the-txid-of-this-raw-transaction
+https://bitcoin.org/en/developer-reference#bitcoin-core-apis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxNTY1MTMxLC03MzM1NzM2ODUsLTE4Mj
-UwNjU3NjUsLTU5NTcyOTg3NiwxOTQ2NDE0OTI4LC0xMDU4MzU0
-OTI3LC0xMTc4NDk1NDY1LC0xMjM1Njc5MzM0LDEzODU3NjAyNz
-ksLTE2MDE0NDYxOTAsLTEwMzc5Njk1MiwtMTA0NzIzMzgxNSwx
-MjQ0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMDUzNzg0NTIsLTUyMj
-gyMjA3NiwxNDMyNjc2OTA3LDE0NzAzMTY0NTIsLTE1NDI3Mzg2
-NjQsLTExNjQ1MDM3OTNdfQ==
+eyJoaXN0b3J5IjpbLTEwODIyMDg5MzAsLTczMzU3MzY4NSwtMT
+gyNTA2NTc2NSwtNTk1NzI5ODc2LDE5NDY0MTQ5MjgsLTEwNTgz
+NTQ5MjcsLTExNzg0OTU0NjUsLTEyMzU2NzkzMzQsMTM4NTc2MD
+I3OSwtMTYwMTQ0NjE5MCwtMTAzNzk2OTUyLC0xMDQ3MjMzODE1
+LDEyNDQ5MDc0ODIsLTEzODExMzc3MDIsLTMwNTM3ODQ1MiwtNT
+IyODIyMDc2LDE0MzI2NzY5MDcsMTQ3MDMxNjQ1MiwtMTU0Mjcz
+ODY2NCwtMTE2NDUwMzc5M119
 -->
