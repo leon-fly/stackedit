@@ -12,9 +12,9 @@
 
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|agreementCode|协议号|String|√|由道可特提供给接入方产品对应协议号(详见产品信息文档)|
-|refTransactionNo|交易号|String(128)|√|必须在我家加油平台唯一（用于幂等支持）|
-|planCode|方案号|String|√|由道可特提供给接入方(详见产品信息文档)|
+|agreementCode|协议号|String|√|由道可特提供给接入方产品对应协议号|
+|refTransactionNo|交易号|String(128)|√|调用方提供的交易单号，一般为diao yogn fan（用于幂等支持）|
+|planCode|方案号|String|√|由道可特提供给接入方|
 |policyHolder|投保人信息|Object|√|详见【投保人policyHolder】
 |insuredObject|被保人信息|Object[]|√|详见【被保人insuredObject】
 |effectiveDate|起保时间|Date|√|采用ISO8601格式|
@@ -81,11 +81,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0OTI3MDMwLDk2MjU5OTYzOCwtMTA4Mj
-IwODkzMCwtNzMzNTczNjg1LC0xODI1MDY1NzY1LC01OTU3Mjk4
-NzYsMTk0NjQxNDkyOCwtMTA1ODM1NDkyNywtMTE3ODQ5NTQ2NS
-wtMTIzNTY3OTMzNCwxMzg1NzYwMjc5LC0xNjAxNDQ2MTkwLC0x
-MDM3OTY5NTIsLTEwNDcyMzM4MTUsMTI0NDkwNzQ4MiwtMTM4MT
-EzNzcwMiwtMzA1Mzc4NDUyLC01MjI4MjIwNzYsMTQzMjY3Njkw
-NywxNDcwMzE2NDUyXX0=
+eyJoaXN0b3J5IjpbLTE4MjEzMzk3NTcsOTYyNTk5NjM4LC0xMD
+gyMjA4OTMwLC03MzM1NzM2ODUsLTE4MjUwNjU3NjUsLTU5NTcy
+OTg3NiwxOTQ2NDE0OTI4LC0xMDU4MzU0OTI3LC0xMTc4NDk1ND
+Y1LC0xMjM1Njc5MzM0LDEzODU3NjAyNzksLTE2MDE0NDYxOTAs
+LTEwMzc5Njk1MiwtMTA0NzIzMzgxNSwxMjQ0OTA3NDgyLC0xMz
+gxMTM3NzAyLC0zMDUzNzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2
+OTA3LDE0NzAzMTY0NTJdfQ==
 -->
