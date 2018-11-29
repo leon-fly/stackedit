@@ -63,8 +63,10 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 | status | 字段说明 | 处理方式 |
 |:------------- |:---------------|:-------------|
-|401|认证未成功|确认accessKey与secretKey正确的前提下，再检查签名算法是否正确|
-|403|授权未成功|请确认APIqing|
+|401|认证未成功|确认accessKey与secretKey正确的前提下，检查签名算法是否正确|
+|403|授权未成功|请确认API请求路径是否正确|
+|404|数据|请确认API请求路径是否正确|
+|500|服务器端错误|请根据message信息调整API请求
 
 ## 4. API接口
 
@@ -148,6 +150,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyMTA4MTYyLDE5OTE3MTY0MzUsLTE5Mz
+eyJoaXN0b3J5IjpbOTY0MDQ5MzM0LDE5OTE3MTY0MzUsLTE5Mz
 A2NTYzNzMsLTE0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
 -->
