@@ -126,6 +126,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
   "refTransactionNo": "REF201811280001",
   "effectiveDate": "2018-11-29T00:00:00.000+0800",
   "expiredDate": "2019-11-28T23:59:59.000+0800",
+  "premium": 36,
   "planCode": "P_AH_SCR_0",
   "policyHolder": {
     "name": "苏宁第一门店",
@@ -192,8 +193,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjY4NDI3NywxMjAzODkxMzUxLDk5MD
-gwMzU0OSwtNTg0ODUyMTkwLC0xMDA4MjMwNjczLDU2MTQyNTc3
-NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC0xNDc4MjY5NzEsMT
-k2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbLTE4MDYzNjUyMDMsMTIwMzg5MTM1MSw5OT
+A4MDM1NDksLTU4NDg1MjE5MCwtMTAwODIzMDY3Myw1NjE0MjU3
+NzQsMTk5MTcxNjQzNSwtMTkzMDY1NjM3MywtMTQ3ODI2OTcxLD
+E5NjYzODk0MF19
 -->
