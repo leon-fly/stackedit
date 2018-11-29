@@ -65,12 +65,14 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |:------------- |:---------------|:-------------|
 |401|认证未成功|确认accessKey与secretKey正确的前提下，检查签名算法是否正确|
 |403|授权未成功|请确认API请求路径是否正确|
-|404|数据|请确认API请求路径是否正确|
-|500|服务器端错误|请根据message信息调整API请求
+|404|数据查询失败|请先确认请求路径是否正确，再确认查询的参数值是否正确|
+|500|服务器端错误|请根据具体的message信息调整API请求
 
 ## 4. API接口
 
 ### 4.1. 询价接口
+
+暂未实现，稍后提供
 
 ### 4.2. 投保接口（支持幂等性）
 
@@ -150,6 +152,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0MDQ5MzM0LDE5OTE3MTY0MzUsLTE5Mz
-A2NTYzNzMsLTE0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
+eyJoaXN0b3J5IjpbLTY0ODA1NDk1NywxOTkxNzE2NDM1LC0xOT
+MwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
 -->
