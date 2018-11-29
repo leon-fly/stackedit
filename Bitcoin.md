@@ -1,16 +1,21 @@
 
 # 安华手机碎屏险API对接文档 - v1.0
 
-本文档为 **安华手机碎屏险** Web服务API对接的详细说明，主要包括：对接流程、数据签名、错误处理和具体对接接口这几个主要部分。
+本文档为 **安华手机碎屏险** Web服务API对接的详细说明，主要包括：对接流程、数据签名、错误处理和具体API接口这四个部分。
 
 ## 1. 对接流程
 
 
 
-## 1. 询价接口
+## 2. 数据签名
 
+## 3. 错误处理
 
-## 2. 投保接口（支持幂等性）
+## 4. API接口
+
+### 4.1. 询价接口
+
+### 4.2. 投保接口（支持幂等性）
 
 * 接口地址
 	* 测试环境 https://test.mingzebx.com/api/policies/issuances
@@ -85,13 +90,13 @@
 }
 ```
 
-## 3. 保单查询接口
+### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzcwMDg5LC03OTAzNDY3MTIsOTYyNT
-k5NjM4LC0xMDgyMjA4OTMwLC03MzM1NzM2ODUsLTE4MjUwNjU3
-NjUsLTU5NTcyOTg3NiwxOTQ2NDE0OTI4LC0xMDU4MzU0OTI3LC
-0xMTc4NDk1NDY1LC0xMjM1Njc5MzM0LDEzODU3NjAyNzksLTE2
-MDE0NDYxOTAsLTEwMzc5Njk1MiwtMTA0NzIzMzgxNSwxMjQ0OT
-A3NDgyLC0xMzgxMTM3NzAyLC0zMDUzNzg0NTIsLTUyMjgyMjA3
-NiwxNDMyNjc2OTA3XX0=
+eyJoaXN0b3J5IjpbLTMzMjgwODMxOSwtNzkwMzQ2NzEyLDk2Mj
+U5OTYzOCwtMTA4MjIwODkzMCwtNzMzNTczNjg1LC0xODI1MDY1
+NzY1LC01OTU3Mjk4NzYsMTk0NjQxNDkyOCwtMTA1ODM1NDkyNy
+wtMTE3ODQ5NTQ2NSwtMTIzNTY3OTMzNCwxMzg1NzYwMjc5LC0x
+NjAxNDQ2MTkwLC0xMDM3OTY5NTIsLTEwNDcyMzM4MTUsMTI0ND
+kwNzQ4MiwtMTM4MTEzNzcwMiwtMzA1Mzc4NDUyLC01MjI4MjIw
+NzYsMTQzMjY3NjkwN119
 -->
