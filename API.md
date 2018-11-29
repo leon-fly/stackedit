@@ -31,7 +31,7 @@ sequenceDiagram
 > 将请求URL中的参数（包含accessKey参数）按照**参数名称**按字母排序，然后使用&符号拼接，再与secretKey进行字符串拼接，最后对拼接内容进行MD5运算，运算的结果添加到请求URL的signature参数上
 > 
 
-以保单查询接口为例说明
+**以保单查询接口为例说明**
 
 1. HTTP GET请求路径及参数为
 ```
@@ -53,8 +53,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 ```
 /api/policies/issuances?accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004&signature=6cb478bc3bc8b0ee0e76ddbe3301bc92
 ```
-
-
 
 ## 3. 错误处理
 
@@ -150,6 +148,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA4MDA2ODQsMTk5MTcxNjQzNSwtMT
+eyJoaXN0b3J5IjpbLTE1MDE1MjY2NzIsMTk5MTcxNjQzNSwtMT
 kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
 -->
