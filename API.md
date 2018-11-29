@@ -7,15 +7,7 @@
 
 本产品的API对接主要涉及到保单询价、保单出单、保单查询三个接口。其中保单询价用于获取手机碎屏险的价格（基于指定手机的型号），于此同时该接口还会对保单进行核保。上述三个接口调用的基本流程如下：
 
-sequenceDiagram
-    participant 渠道方
-    participant 道可特
-    渠道方->>道可特: 1 保单询价
-    道可特-->>渠道方: 1.1 询价结果
-    渠道方->>道可特: 2 保单出单
-    道可特-->>渠道方: 2.1 出单交易号
-    渠道方->>道可特: 3 查询保单
-    道可特-->>渠道方: 3.1 保单详情
+![enter image description here](https://lh3.googleusercontent.com/fdmrNVuxSKmBSi9yXy8sVzQusT-f-e2ijfJQAzAKl7X1XNx5S67LNEGNTdJbmetF80kON4QpDRdZ9Q)
 
 ## 2. 数据签名
 
@@ -148,6 +140,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE1MjY2NzIsMTk5MTcxNjQzNSwtMT
-kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
+eyJoaXN0b3J5IjpbLTI5NzA1MTQ0NiwxOTkxNzE2NDM1LC0xOT
+MwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
 -->
