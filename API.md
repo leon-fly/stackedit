@@ -78,9 +78,26 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 ### 4.1. 询价接口
 
 * 接口路径 ：**/api/policies/quotations**
-* 接口说明 ：保单出单接口
+* 接口说明 ：保单询价接口
 * 请求方式 ：POST
 * 请求参数
+
+| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
+|:------------- |:---------------|:-------------|:-------------:|:---------|
+|agreementCode|协议号|String|√|请填写固定值 A_JUNHANG_AH_SCR|
+|planCode|方案号|String|√|请填写固定值 P_AH_SCR_0|
+|effectiveDate|起保时间|String|√|采用ISO8601日期格式，此产品为当前出单时间+7天后的零点零分|
+|expiredDate|终保时间|String|√|采用ISO8601日期格式，此产品为起保时间1年后的23:59:59|
+|policyHolder|投保人信息|Object|√|详见【投保人policyHolder】
+|insuredObject|被保人信息|Object[]|√|详见【被保人insuredPerson】
+|properties|保单标的属性|Object[]|√|详见【保单标的属性properties】
+
+* 返回参数
+
+| 字段  | 字段名  | 类型及长度 | 是否必返回 |字段说明|
+|:------------- |:---------------|:-------------|:-------------:|:---------|
+|transactionNo|保单交易号|String(128)|√|保单交易号，用于保单查询API的调用|
+|orderNo|保单订单号|String(128)|√|保单对应的订单号，本产品不需此参数|
 
 ***投保人 policyHolder***
 
@@ -206,8 +223,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1OTQ3NDMzLC0xMjIyODc4MDkxLDE4MT
-E3MDQwMzUsMTIwMzg5MTM1MSw5OTA4MDM1NDksLTU4NDg1MjE5
-MCwtMTAwODIzMDY3Myw1NjE0MjU3NzQsMTk5MTcxNjQzNSwtMT
-kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
+eyJoaXN0b3J5IjpbLTUwNjIzNjc2MCwtMTIyMjg3ODA5MSwxOD
+ExNzA0MDM1LDEyMDM4OTEzNTEsOTkwODAzNTQ5LC01ODQ4NTIx
+OTAsLTEwMDgyMzA2NzMsNTYxNDI1Nzc0LDE5OTE3MTY0MzUsLT
+E5MzA2NTYzNzMsLTE0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
 -->
