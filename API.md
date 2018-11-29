@@ -99,6 +99,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |premium|保费|Number|√|计算获得的保单保费|
 |policyHolder|投保人信息|Object|√|详见【投保人policyHolder】
 |insuredObject|被保人信息|Object[]|√|详见【被保人insuredObject】
+|properties|保单标的属性|Object[]|√|详见【保单标的属性properties】
 
 ***投保人policyHolder***
 
@@ -108,6 +109,14 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |id|企业的统一社会信用代码|String(18)|√|格式为‘SOCIAL_CREDIT:’ + 18位统一社会信用代码|
 
 ***被保人insuredObject***
+
+| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
+|:------------- |:---------------|:-------------|:-------------:|:---------|
+|name|姓名|String|√|被保人姓名|
+|id|身份证号|String(18)|√|被保人的证件类型及号码，格式为‘ID_CARD:’ + 18位身份证号|
+|phoneNumber|手机号码|String(11)|√|被保人的手机号码|
+
+***保单标的属性insuredObject***
 
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
@@ -197,8 +206,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzMxNzQwODUsMTIwMzg5MTM1MSw5OT
-A4MDM1NDksLTU4NDg1MjE5MCwtMTAwODIzMDY3Myw1NjE0MjU3
-NzQsMTk5MTcxNjQzNSwtMTkzMDY1NjM3MywtMTQ3ODI2OTcxLD
-E5NjYzODk0MF19
+eyJoaXN0b3J5IjpbNTM1NjI2NTMwLDEyMDM4OTEzNTEsOTkwOD
+AzNTQ5LC01ODQ4NTIxOTAsLTEwMDgyMzA2NzMsNTYxNDI1Nzc0
+LDE5OTE3MTY0MzUsLTE5MzA2NTYzNzMsLTE0NzgyNjk3MSwxOT
+Y2Mzg5NDBdfQ==
 -->
