@@ -59,6 +59,13 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 
+常见的错误状态如下：
+
+| status | 字段说明 | 处理方式 |
+|:------------- |:---------------|:-------------|
+|401|认证|String(18)|
+|name|姓名|String|√|
+
 ## 4. API接口
 
 ### 4.1. 询价接口
@@ -141,6 +148,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDU5OTM4MCwxOTkxNzE2NDM1LC0xOT
-MwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbLTIwODM5NjY4NDcsMTk5MTcxNjQzNSwtMT
+kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
 -->
