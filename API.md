@@ -49,6 +49,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 ## 3. 错误处理
 
 
+
 ```
 {
     "timestamp": "2018-10-12T08:32:35.726+0000",
@@ -99,9 +100,10 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 * 返回参数
 
-| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
+| 字段  | 字段名  | 类型及长度 | 是否必返回 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|transactionNo|交易号|String(128)|√|
+|transactionNo|保单交易号|String(128)|√|
+|orderNo|保单订单号|String(128)|√|
 
 * 请求示例
 
@@ -140,6 +142,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzA1MTQ0NiwxOTkxNzE2NDM1LC0xOT
+eyJoaXN0b3J5IjpbMTMxNjUyNjUwMywxOTkxNzE2NDM1LC0xOT
 MwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
 -->
