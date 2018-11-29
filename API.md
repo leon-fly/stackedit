@@ -183,17 +183,17 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 ```
 {
     "policyNo": null,
+    "productName": "安华手机碎屏险",
     "policyStatus": "WAITING_FOR_PAYMENT",
     "underwritingStatus": "PASSED",
     "effectiveDate": "2018-11-28T16:00:00.000+0000",
     "expiredDate": "2019-11-28T15:59:59.000+0000",
-    "premium": 36,
-
+    "premium": 36
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE1Njk0NzMsMTIwMzg5MTM1MSw5OT
-A4MDM1NDksLTU4NDg1MjE5MCwtMTAwODIzMDY3Myw1NjE0MjU3
-NzQsMTk5MTcxNjQzNSwtMTkzMDY1NjM3MywtMTQ3ODI2OTcxLD
-E5NjYzODk0MF19
+eyJoaXN0b3J5IjpbLTM4NjY4NDI3NywxMjAzODkxMzUxLDk5MD
+gwMzU0OSwtNTg0ODUyMTkwLC0xMDA4MjMwNjczLDU2MTQyNTc3
+NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC0xNDc4MjY5NzEsMT
+k2NjM4OTQwXX0=
 -->
