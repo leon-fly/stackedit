@@ -113,8 +113,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 | 字段  | 字段名  | 类型及长度 | 是否必返回 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|transactionNo|保单交易号|String(128)|√|
-|orderNo|保单订单号|String(128)|√|
+|transactionNo|保单交易号|String(128)|√|保单交易号，用于保单查询API的调用|
+|orderNo|保单订单号|String(128)|√|保单对应的订单号，本产品不需此参数|
 
 * 请求示例
 
@@ -153,6 +153,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzkyNDM0NzYsMTk5MTcxNjQzNSwtMT
-kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
+eyJoaXN0b3J5IjpbNTYxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5Mz
+A2NTYzNzMsLTE0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
 -->
