@@ -93,6 +93,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |planCode|方案号|String|√|请填写固定值 P_AH_SCR_0|
 |effectiveDate|起保时间|String|√|采用ISO8601日期格式，此产品为当前出单时间+7天后的零点零分|
 |expiredDate|终保时间|String|√|采用ISO8601日期格式，此产品为起保时间1年后的23:59:59|
+|premium|保费|Number|√|计算获得的保单保费|
 |policyHolder|投保人信息|Object|√|详见【投保人policyHolder】
 |insuredObject|被保人信息|Object[]|√|详见【被保人insuredObject】
 
@@ -193,8 +194,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDYzNjUyMDMsMTIwMzg5MTM1MSw5OT
-A4MDM1NDksLTU4NDg1MjE5MCwtMTAwODIzMDY3Myw1NjE0MjU3
-NzQsMTk5MTcxNjQzNSwtMTkzMDY1NjM3MywtMTQ3ODI2OTcxLD
-E5NjYzODk0MF19
+eyJoaXN0b3J5IjpbMTU4NjAxMDM0NywxMjAzODkxMzUxLDk5MD
+gwMzU0OSwtNTg0ODUyMTkwLC0xMDA4MjMwNjczLDU2MTQyNTc3
+NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC0xNDc4MjY5NzEsMT
+k2NjM4OTQwXX0=
 -->
