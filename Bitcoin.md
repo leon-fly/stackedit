@@ -1,102 +1,187 @@
 
-# 安华手机碎屏险API对接文档 - v1.0
+## Bitcoin
 
-本文档为 **安华手机碎屏险** Web服务API对接的详细说明，主要包括：对接流程、数据签名、错误处理和具体API接口这四个部分。
+### Bitcoin consists of
+ - A decentralized peer-to-peer network (**the bitcoin protocol**)
+ - A public transaction ledger (**the blockchain**)
+ - A set of rules for independent transaction validation and currency issuance (**consensus rules**)
+ - A mechanism for reaching global decentralized consensus on the valid blockchain (**Proof-of-Work algorithm**)
 
-## 1. 对接流程
+### History of Bitcoin
+ - "Bitcoin: A Peer-to-Peer Electronic Cash System", 2008, Satoshi Nakamoto
+ - "Byzantine Generals" problem: Satoshi Nakamoto's solution, which uses the concept of Proof-of-Work to achieve consensus without a central trusted authority.
+
+### How Bitcoin Works
+
+**Traditional banking and payment system** - Centralized
+[How does money transfer work?](https://www.quora.com/How-does-money-transfer-between-banks-and-different-countries-work)
+
+### Keys and Address
+
+#### Private Key
+256 bits as 64 hexadecimal digits:
+
+    1E99423A4ED27608A15A2616A2B0E9E52CED330AC530EDCC32C8FFC6A526AEDD
+
+#### Public Key
+
+[Elliptic Curve Cryptography](https://www.wolframalpha.com/input/?i=Elliptic%20Curve)
+
+> K=k*G
+
+k is the private key, G is the generator point.
+
+#### Bitcoin Address
+ - A bitcoin address can represent the owner of a private/public key pair, or it can represent some‐ thing else, such as a payment script. 
+ - The bitcoin address is what appears most commonly in a transaction as the “recipient” of the funds.
+ - A Bitcoin address is a unique number that “holds” bitcoin currency. You use the address to receive and send bitcoins.
+
+> A = RIPEMD160(SHA256(K))  
+
+where K is the public key and A is the resulting bitcoin address.
+
+**P2PKH (pay-to-public-key hash) Address**
+ - bitcoin address that begin with '1'
+ - one public key hash and one private key signature as proof of ownership
+
+**P2SH (pay-to-script hash)**
+ - bitcoin address that begin with '3'
+ - require M signatures from a total of N keys
+> script hash = RIPEMD160(SHA256(script))
+
+#### Encoding & Format
+
+**Base58 encoding**
+Base58 is Base64 without the 0 (number zero), O (capital o), l (lower L), I (capital i), and the symbols “+” and “/”.
+
+**Keys formats**
+ - private key
+	 - raw 32 bytes
+	 - hex 64 hexadecimal digits
+	 - WIF prefix '5', Base58Check encoding: Base58 with version prefix of 128- and 32-bit checksum
+ - public key
+	 - a point (x, y) on an elliptic curve 
+
+#### Vanity Addresses
+Vanity addresses are valid bitcoin addresses that contain human-readable messages.
+
+### Wallet
+
+**Bitcoin wallet** contains keys, not coins. Wallets are keychains containing pairs of private/public keys. Users sign transactions with the keys. The coins are stored on the blockchains in the form of transaction output.
+
+Two primary types of wallets, distinguished by whether the keys they contain are lated to each other or not : 
+ 1. Nondeterministic Wallet, where each key is independently generated from a random number.
+2. Deterministic Wallet, where all keys are derived from a single master key. The most commonly used derivation method uses a tree-like structure an is known as a **hierarchical deterministic** or HD wallet.
+
+#### Mnemonic Code Words (BIP-39)
+
+ 1. Create a random sequence of 128 to 256 bits.
+ 2. Create a checksum of the random sequence by taking the first bits of its SHA256 hash.
+ 3. Add the checksum to the end of the random sequence.
+ 4. Divide the sequence into sections of 11bits
+ 5. Map each 11-bit value to a word from the predefined dictionary of 2048 words.
+ 6. The mnemonic code is the sequence of words.
+
+```mermaid
+graph TB
+A[128 bits random sequence]
+B(BIP English Word List, 2048 words)
+C[128 bits + 4 bits Checksum]
+D[12 segments of 11bits]
+E[12 mnemonic words]
+A --> C
+A --> |First 4 bits of SHA256|C
+C -->D
+D --> B
+B --> E
+```
+
+| Entropy (bits) | Checksum (bits) | Entropy + Checksum (bits) | 	Mnemonic Length (words) |
+|--|--|--|--|
+| 128 | 4 | 132 | 12 |
+| 160 | 5 | 165 | 15 |
+| 192 | 6 | 198 | 18 |
+| 224 | 7 | 231 | 21 |
+| 256 | 8 | 264 | 24 |
 
 
-
-## 2. 数据签名
-
-## 3. 错误处理
-
-## 4. API接口
-
-### 4.1. 询价接口
-
-### 4.2. 投保接口（支持幂等性）
-
-* 接口地址
-	* 测试环境 https://test.mingzebx.com/api/policies/issuances
-	* 生产环境 https://platform.mingzebx.com/api/policies/issuances
-* 接口说明 ：保单出单接口
-* 请求方式 ：POST
-* 请求参数
-
-| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
-|:------------- |:---------------|:-------------|:-------------:|:---------|
-|agreementCode|协议号|String|√|由道可特提供给接入方产品对应协议号|
-|refTransactionNo|交易号|String(128)|√|调用方提供的交易单号，一般为调用方系统该保单对应的订单号或流水号；本系统会根据此交易号做幂等性处理|
-|planCode|方案号|String|√|由道可特提供给接入方|
-|effectiveDate|起保时间|String|√|采用ISO8601日期格式|
-|expiredDate|终保时间|String|√|采用ISO8601日期格式|
-|policyHolder|投保人信息|Object|√|详见【投保人policyHolder】
-|insuredObject|被保人信息|Object[]|√|详见【被保人insuredObject】
-
-***投保人policyHolder***
-
-| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
-|:------------- |:---------------|:-------------|:-------------:|:---------|
-|id|身份证号|String(18)|√||
-|name|姓名|String|√||
-
-***被保人insuredObject***
-
-| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
-|:------------- |:---------------|:-------------|:-------------:|:---------|
-|name|姓名|String|√|被保人姓名|
-|id|身份证号|String(18)|√|被保人的证件类型及号码|
-|phoneNumber|手机号码|String(11)|√|被保人的手机号码|
-
-* 返回参数
-
-| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
-|:------------- |:---------------|:-------------|:-------------:|:---------|
-|transactionNo|交易号|String(128)|√|
-
-* 请求示例
+```mermaid
+graph TB
+A[Mnemonic Words]
+B[Salt: 'mnemonic' + passphrase]
+C(HMAC-SHA512)
+D[512-bits seed]
+A --> C
+B --> C
+C --> |2048 rounds|D
 
 ```
+
+### Transaction
+
+Sample transaction in JSON:
+```json
 {
-  "agreementCode": "A_JUNHANG_AH_SCR",
-  "refTransactionNo": "REF201811280001",
-  "effectiveDate": "2018-11-29T00:00:00.000+0800",
-  "expiredDate": "2019-11-28T23:59:59.000+0800",
-  "planCode": "P_AH_SCR_0",
-  "policyHolder": {
-    "name": "苏宁第一门店",
-    "id": "SOCIAL_CREDIT:9136110206972762X5"
-  },
-  "insuredPersons": [
+  "version": 1,
+  "locktime": 0,
+  "vin": [
     {
-      "name": "小郑",
-      "id": "ID_CARD:320303198111150033",
-      "phoneNumber": "13912345678"
+      "txid": "7957a35fe64f80d234d76d83a2a8f1a0d8149a41d81de548f0a65a8a999f6f18",
+      "vout": 0,
+      "scriptSig": "3045022100884d142d86652a3f47ba4746ec719bbfbd040a570b1deccbb6498c75c4ae24cb02204 b9f039ff08df09cbe9f6addac960298cad530a863ea8f53982c09db8f6e3813[ALL] 0484ecc0d46f1918b30928fa0e4ed99f16a0fb4fde0735e7ade8416ab9fe423cc5412336376789d1 72787ec3457eee41c04f4938de5cc17b4a10fa336a8d752adf",
+      "sequence": 4294967295
     }
   ],
-  "properties": {
-    "IMEI": "1234567890",
-    "model": "iPhone 7:001"
-  }
+  "vout": [
+    {
+      "value": 0.015,
+      "scriptPubKey": "OP_DUP OP_HASH160 ab68025513c3dbd2f7b92a94e0581f5d50f654e7 OP_EQUALVERIFY OP_CHECKSIG"
+    },
+    {
+      "value": 0.0845,
+      "scriptPubKey": "OP_DUP OP_HASH160 7f9b1a7fb68d60c536c2fd8aeaa53a8f3cc025a8 OP_EQUALVERIFY OP_CHECKSIG"
+    }
+  ]
 }
 ```
 
-* 成功返回示例
+Transaction outputs consist of two parts:
 
-```
-{
-    "transactionNo": "OD2018100800008"
-}
-```
+ - An amount of bitcoin, denominated in satoshis, the smallest bitcoin
+   unit
+ - A cryptographic puzzle that determines the conditions required
+   to spend the output  
 
-### 4.3 保单查询接口
+The cryptographic puzzle is also known as a locking script, a witness script, or a scriptPubKey.
+
+The first part of an transaction input is a pointer to an UTXO by reference to the transaction hash and sequence number where the UTXO is recorded in the blockchain.
+
+#### Transaction Fees
+Transaction fees are calculated based on the size of the transaction in kilobytes, not the value of the transaction in bitcoin. Transaction fees are collected by the miner who mines the block that records the transaction on the blockchain.
+
+**Input/Sender Address**
+When the blockchain explorer retrieved the transaction it also retrieved the previous trans‐ action referenced in the input and extracted the first output from that older transaction. Within that output is a locking script that locks the UTXO to Alice’s public key hash (a P2PKH script). The blockchain explorer extracted the public key hash and encoded it using Base58Check encoding to produce and display the bitcoin address that represents that public key.
+
+#### Transaction ID (TxID) generation 
+
+https://bitcoin.stackexchange.com/questions/2177/how-to-calculate-a-hash-of-a-tx
+https://bitcoin.stackexchange.com/questions/32765/how-do-i-calculate-the-txid-of-this-raw-transaction
+https://bitcoin.org/en/developer-reference#bitcoin-core-apis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjgwODMxOSwtNzkwMzQ2NzEyLDk2Mj
-U5OTYzOCwtMTA4MjIwODkzMCwtNzMzNTczNjg1LC0xODI1MDY1
-NzY1LC01OTU3Mjk4NzYsMTk0NjQxNDkyOCwtMTA1ODM1NDkyNy
-wtMTE3ODQ5NTQ2NSwtMTIzNTY3OTMzNCwxMzg1NzYwMjc5LC0x
-NjAxNDQ2MTkwLC0xMDM3OTY5NTIsLTEwNDcyMzM4MTUsMTI0ND
-kwNzQ4MiwtMTM4MTEzNzcwMiwtMzA1Mzc4NDUyLC01MjI4MjIw
-NzYsMTQzMjY3NjkwN119
+eyJoaXN0b3J5IjpbOTYyNTk5NjM4LC0xMDgyMjA4OTMwLC03Mz
+M1NzM2ODUsLTE4MjUwNjU3NjUsLTU5NTcyOTg3NiwxOTQ2NDE0
+OTI4LC0xMDU4MzU0OTI3LC0xMTc4NDk1NDY1LC0xMjM1Njc5Mz
+M0LDEzODU3NjAyNzksLTE2MDE0NDYxOTAsLTEwMzc5Njk1Miwt
+MTA0NzIzMzgxNSwxMjQ0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMD
+UzNzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2OTA3LDE0NzAzMTY0
+NTIsLTE1NDI3Mzg2NjRdfQ==
+-->
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTAwMDk0NTY1NCwtMzMyODA4MzE5LC03OT
+AzNDY3MTIsOTYyNTk5NjM4LC0xMDgyMjA4OTMwLC03MzM1NzM2
+ODUsLTE4MjUwNjU3NjUsLTU5NTcyOTg3NiwxOTQ2NDE0OTI4LC
+0xMDU4MzU0OTI3LC0xMTc4NDk1NDY1LC0xMjM1Njc5MzM0LDEz
+ODU3NjAyNzksLTE2MDE0NDYxOTAsLTEwMzc5Njk1MiwtMTA0Nz
+IzMzgxNSwxMjQ0OTA3NDgyLC0xMzgxMTM3NzAyLC0zMDUzNzg0
+NTIsLTUyMjgyMjA3Nl19
 -->
