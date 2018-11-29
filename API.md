@@ -164,8 +164,17 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 * 请求方式 ：GET
 * 请求参数
 
+| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
+|:------------- |:---------------|:-------------|:-------------:|:---------|
+|transactionNo|保单交易号|String|√|出单接口返回的transactionNo|
+
+* 返回参数
+
+| 字段 | 字段名 | 类型及长度 | 字段说明 |
+|:------------- |:---------------|:-------------|:-------------:|
+|transactionNo|保单交易号|String|出单接口返回的transactionNo|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDMxOTQ4NSw1NjE0MjU3NzQsMTk5MT
-cxNjQzNSwtMTkzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0
-MF19
+eyJoaXN0b3J5IjpbLTEwMDgyMzA2NzMsNTYxNDI1Nzc0LDE5OT
+E3MTY0MzUsLTE5MzA2NTYzNzMsLTE0NzgyNjk3MSwxOTY2Mzg5
+NDBdfQ==
 -->
