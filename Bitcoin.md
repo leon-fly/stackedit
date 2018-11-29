@@ -12,8 +12,8 @@
 
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|refTransactionNo|交易号|String(128)|√|必须在我家加油平台唯一（用于幂等支持）|
 |agreementCode|协议号|String|√|由道可特提供给接入方产品对应协议号(详见产品信息文档)|
+|refTransactionNo|交易号|String(128)|√|必须在我家加油平台唯一（用于幂等支持）|
 |planCode|方案号|String|√|由道可特提供给接入方(详见产品信息文档)|
 |policyHolder|投保人信息|Object|√|详见【投保人policyHolder】
 |insuredObject|被保人信息|Object[]|√|详见【被保人insuredObject】
@@ -48,26 +48,27 @@
 
 ```
 {
-  "refTransactionNo": "LH2018092812092101",
-  "agreementCode": "ARG_SL_GL_01",
-  "planCode": "SL_GL_CVAI_03_1",
-  "effectiveDate": "2018-09-29T16:00:00.000Z",
-  "expiredDate": "2019-09-29T15:59:59.000Z",
+  "agreementCode": "A_JUNHANG_AH_SCR",
+  "refTransactionNo": "REF201811280001",
+  "effectiveDate": "2018-11-29T00:00:00.000+0800",
+  "expiredDate": "2019-11-28T23:59:59.000+0800",
+  "planCode": "P_AH_SCR_0",
   "policyHolder": {
-    "id": "ID_CARD: 320303198111150033",
-    "personName": "刘德华",
-    "phoneNumber": "13912345678"
+    "name": "苏宁第一门店",
+    "id": "SOCIAL_CREDIT:9136110206972762X5"
   },
   "insuredPersons": [
     {
+      "name": "小郑",
       "id": "ID_CARD:320303198111150033",
-      "personName": "刘德华",
-      "phoneNumber": "13912345678",
-      "relationshipToInsuredPerson":"00"
+      "phoneNumber": "13912345678"
     }
-  ]
+  ],
+  "properties": {
+    "IMEI": "1234567890",
+    "model": "iPhone 7:001"
+  }
 }
-
 ```
 
 * 成功返回示例
@@ -80,7 +81,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5MDkzNDU2LDk2MjU5OTYzOCwtMTA4Mj
+eyJoaXN0b3J5IjpbOTY0OTI3MDMwLDk2MjU5OTYzOCwtMTA4Mj
 IwODkzMCwtNzMzNTczNjg1LC0xODI1MDY1NzY1LC01OTU3Mjk4
 NzYsMTk0NjQxNDkyOCwtMTA1ODM1NDkyNywtMTE3ODQ5NTQ2NS
 wtMTIzNTY3OTMzNCwxMzg1NzYwMjc5LC0xNjAxNDQ2MTkwLC0x
