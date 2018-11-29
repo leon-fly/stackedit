@@ -23,7 +23,7 @@
 > 将请求URL中的参数（包含accessKey参数）按照**参数名称**按字母排序，然后使用&符号拼接，再与secretKey进行字符串拼接，最后对拼接内容进行MD5运算，运算的结果添加到请求URL的signature参数上
 > 
 
-以出单接口为例说明：
+以保单查询接口为例说明：
 ```
 GET /api/policies/issuances
 
@@ -135,5 +135,6 @@ GET /api/policies/issuances
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
+eyJoaXN0b3J5IjpbLTE5MzA2NTYzNzMsLTE0NzgyNjk3MSwxOT
+Y2Mzg5NDBdfQ==
 -->
