@@ -24,7 +24,9 @@
 > 
 
 以出单接口为例说明：
-
+```
+GET /api/p
+```
 
 ```
 1.请求URL为 https://test.mingzebx.com/api/policies/issuances/print?policyNumber=123456&accessKey=Q83KAkyo34
@@ -129,5 +131,5 @@
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbLTE0MDUzODY1MjYsMTk2NjM4OTQwXX0=
 -->
