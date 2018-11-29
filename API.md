@@ -174,29 +174,14 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |:------------- |:---------------|:-------------|:-------------|
 |policyNo|保单号|String|保险公司返回的保单号|
 |policyStatus|保单状态|String|保单状态|
+|underwritingStatus|核保状态|String|核保状态|
 |effectiveDate|起保时间|String|采用ISO8601日期格式|
 |expiredDate|终保时间|String|采用ISO8601日期格式|
 |premium|保费|Number|该保单对应的保费|
+|productName|产品名称|Number|产品名称|
 
-    "policyNo": null,
-    "policyStatus": "WAITING_FOR_PAYMENT",
-    "underwritingStatus": "PASSED",
-    "intStatus": null,
-    "bcpStatus": null,
-    "creationTime": null,
-    "effectiveDate": "2018-11-28T16:00:00.000+0000",
-    "expiredDate": "2019-11-28T15:59:59.000+0000",
-    "premium": 0,
-    "policyHolder": null,
-    "insurers": null,
-    "electronicPolicy": null,
-    "electronicInvoice": null,
-    "productName": "安华手机碎屏险",
-    "chargeMode": null,
-    "productCode": null,
-    "extendInfo": null
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTk0NzMwMTksLTEwMDgyMzA2NzMsNT
-YxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5MzA2NTYzNzMsLTE0Nzgy
-Njk3MSwxOTY2Mzg5NDBdfQ==
+eyJoaXN0b3J5IjpbLTU3Mzk3NzMzLC0xMDA4MjMwNjczLDU2MT
+QyNTc3NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC0xNDc4MjY5
+NzEsMTk2NjM4OTQwXX0=
 -->
