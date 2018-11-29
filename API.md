@@ -98,8 +98,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|id|身份证号|String(18)|√||
-|name|姓名|String|√||
+|name|企业名称|String|√||
+|id|企业的统一社会信用代码|String(18)|√|| 
 
 ***被保人insuredObject***
 
@@ -153,6 +153,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTkwNTU3OCwxOTkxNzE2NDM1LC0xOT
+eyJoaXN0b3J5IjpbMTAwMDMyODQzMSwxOTkxNzE2NDM1LC0xOT
 MwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
 -->
