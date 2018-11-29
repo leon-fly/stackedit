@@ -33,7 +33,7 @@ sequenceDiagram
 
 以保单查询接口为例说明：
 ```
-GET /api/policies/issuances
+GET /api/policies/issuances?transactionNo=PA_JUNHANG_AH_SCR2018112900004
 
 {
 ...
@@ -143,6 +143,6 @@ GET /api/policies/issuances
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTcxNjQzNSwtMTkzMDY1NjM3MywtMT
-Q3ODI2OTcxLDE5NjYzODk0MF19
+eyJoaXN0b3J5IjpbMTYwMjkzMTA4MCwxOTkxNzE2NDM1LC0xOT
+MwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
 -->
