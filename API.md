@@ -103,7 +103,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|name|企业名称|String|√||
+|name|企业名称|String|√|公司名称|
 |id|企业的统一社会信用代码|String(18)|√|格式为‘SOCIAL_CREDIT:#{18位统一社会信用代码}’ |
 
 ***被保人 insuredPerson***
@@ -171,7 +171,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
   ],
   "properties": {
     "IMEI": "1234567890",
-    "model": "iPhone 7:001"
+    "model": "iPhone7-001"
   }
 }
 ```
@@ -181,7 +181,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 ```
 {
     "orderNo": "OD2018112900004",
-    "transactionNo": "PA_JUNHANG_AH_SCR2018112900004"
+
 }
 ```
 
@@ -223,8 +223,9 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjI4ODMxLC0xMjIyODc4MDkxLDE4MT
-E3MDQwMzUsMTIwMzg5MTM1MSw5OTA4MDM1NDksLTU4NDg1MjE5
-MCwtMTAwODIzMDY3Myw1NjE0MjU3NzQsMTk5MTcxNjQzNSwtMT
-kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
+eyJoaXN0b3J5IjpbLTgxMTkyMDI2OCwxMjYyMjg4MzEsLTEyMj
+I4NzgwOTEsMTgxMTcwNDAzNSwxMjAzODkxMzUxLDk5MDgwMzU0
+OSwtNTg0ODUyMTkwLC0xMDA4MjMwNjczLDU2MTQyNTc3NCwxOT
+kxNzE2NDM1LC0xOTMwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4
+OTQwXX0=
 -->
