@@ -120,8 +120,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|IMEI|手机IMEI号|String|√|手机IMEI号|
-|model|手机型号对应的编码|String|√|被保人的证件类型及号码，格式为‘ID_CARD:’ + 18位身份证号|
+|IMEI|手机IMEI号|String|√|15或17位的手机IMEI号|
+|model|手机型号对应的编码|String|√|手机型号对应的编码|
 
 * 返回参数
 
@@ -205,7 +205,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTkzNzY3OSwxMjAzODkxMzUxLDk5MD
+eyJoaXN0b3J5IjpbMTgxMTcwNDAzNSwxMjAzODkxMzUxLDk5MD
 gwMzU0OSwtNTg0ODUyMTkwLC0xMDA4MjMwNjczLDU2MTQyNTc3
 NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC0xNDc4MjY5NzEsMT
 k2NjM4OTQwXX0=
