@@ -89,8 +89,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |agreementCode|协议号|String|√|由道可特提供给接入方产品对应协议号|
 |refTransactionNo|交易号|String(128)|√|调用方提供的交易单号，一般为调用方系统该保单对应的订单号或流水号；本系统会根据此交易号做幂等性处理|
 |planCode|方案号|String|√|由道可特提供给接入方|
-|effectiveDate|起保时间|String|√|采用ISO8601日期格式|
-|expiredDate|终保时间|String|√|采用ISO8601日期格式|
+|effectiveDate|起保时间|String|√|采用ISO8601日期格式，此产品为当前出单时间+7天后的零点零分|
+|expiredDate|终保时间|String|√|采用ISO8601日期格式，此产品为起保时间1年后的23:59:59|
 |policyHolder|投保人信息|Object|√|详见【投保人policyHolder】
 |insuredObject|被保人信息|Object[]|√|详见【被保人insuredObject】
 
@@ -153,6 +153,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDgzNTkyNzUsMTk5MTcxNjQzNSwtMT
-kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
+eyJoaXN0b3J5IjpbMTQxNTkwNTU3OCwxOTkxNzE2NDM1LC0xOT
+MwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
 -->
