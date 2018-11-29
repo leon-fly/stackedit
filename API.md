@@ -45,8 +45,14 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004
 ```
 accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ceyZBSmWrdRspXcRWac
 ```
-4. 将第3步的内容进行MD5运算获得到签名结果feb072c0e8098899bcaf3bcebcad91f8
-最终的请求URL为 https://test.mingzebx.com/api/policies/issuances/print?policyNumber=123456&accessKey=Q83KAkyo34&signature= feb072c0e8098899bcaf3bcebcad91f8
+4. 将第3步的内容进行MD5运算获得到签名结果
+```
+feb072c0e8098899bcaf3bcebcad91f8
+```
+5. 最终的请求URL为
+```
+/api/policies/issuances/print?policyNumber=123456&accessKey=Q83KAkyo34&signature= feb072c0e8098899bcaf3bcebcad91f8
+```
 
 
 
@@ -144,6 +150,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ2NzY1MjIsMTk5MTcxNjQzNSwtMT
+eyJoaXN0b3J5IjpbLTE2OTc1NDk4NzUsMTk5MTcxNjQzNSwtMT
 kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
 -->
