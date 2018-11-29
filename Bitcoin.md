@@ -2,7 +2,10 @@
 # 安华手机碎屏险API对接文档
 
 ## 1. 投保接口（支持幂等性）
-* 接口地址 ：https://test.mingzebx.com/api/policies/issuances
+
+* 接口地址
+	* 测试环境 https://test.mingzebx.com/api/policies/issuances
+	* 生产环境 https://platform.mingzebx.com/api/policies/issuances
 * 接口说明 ：保单出单接口
 * 请求方式 ：POST
 * 请求参数
@@ -77,11 +80,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDE4OTY5MzIsOTYyNTk5NjM4LC0xMD
-gyMjA4OTMwLC03MzM1NzM2ODUsLTE4MjUwNjU3NjUsLTU5NTcy
-OTg3NiwxOTQ2NDE0OTI4LC0xMDU4MzU0OTI3LC0xMTc4NDk1ND
-Y1LC0xMjM1Njc5MzM0LDEzODU3NjAyNzksLTE2MDE0NDYxOTAs
-LTEwMzc5Njk1MiwtMTA0NzIzMzgxNSwxMjQ0OTA3NDgyLC0xMz
-gxMTM3NzAyLC0zMDUzNzg0NTIsLTUyMjgyMjA3NiwxNDMyNjc2
-OTA3LDE0NzAzMTY0NTJdfQ==
+eyJoaXN0b3J5IjpbMjI5MDkzNDU2LDk2MjU5OTYzOCwtMTA4Mj
+IwODkzMCwtNzMzNTczNjg1LC0xODI1MDY1NzY1LC01OTU3Mjk4
+NzYsMTk0NjQxNDkyOCwtMTA1ODM1NDkyNywtMTE3ODQ5NTQ2NS
+wtMTIzNTY3OTMzNCwxMzg1NzYwMjc5LC0xNjAxNDQ2MTkwLC0x
+MDM3OTY5NTIsLTEwNDcyMzM4MTUsMTI0NDkwNzQ4MiwtMTM4MT
+EzNzcwMiwtMzA1Mzc4NDUyLC01MjI4MjIwNzYsMTQzMjY3Njkw
+NywxNDcwMzE2NDUyXX0=
 -->
