@@ -7,7 +7,7 @@
 
 本产品的API对接主要涉及到保单询价、保单出单、保单查询三个接口。其中保单询价用于获取手机碎屏险的价格（基于指定手机的型号），于此同时该接口还会对保单进行核保。上述三个接口调用的基本流程如下：
 
-![enter image description here](https://lh3.googleusercontent.com/fdmrNVuxSKmBSi9yXy8sVzQusT-f-e2ijfJQAzAKl7X1XNx5S67LNEGNTdJbmetF80kON4QpDRdZ9Q)
+![enter image description here](http://web-1256596879.file.myqcloud.com/docs/mermaid-diagram-20181129160154.png)
 
 ## 2. 数据签名
 
@@ -192,7 +192,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwODAzNTQ5LC01ODQ4NTIxOTAsLTEwMD
-gyMzA2NzMsNTYxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5MzA2NTYz
-NzMsLTE0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
+eyJoaXN0b3J5IjpbMTIwMzg5MTM1MSw5OTA4MDM1NDksLTU4ND
+g1MjE5MCwtMTAwODIzMDY3Myw1NjE0MjU3NzQsMTk5MTcxNjQz
+NSwtMTkzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
 -->
