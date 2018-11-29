@@ -154,7 +154,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 
-当渠道方调用保单出单接口后，系统会异步的将保单出单信息发送给保险公司的核心系统以获取保单号，一般这个时间间隔会控制在10秒钟内。渠道方需要使用保单查询接口来轮询的方式查询最终保险公司返回的保单号。
+当渠道方调用保单出单接口后，系统会异步的将保单出单信息发送给保险公司的核心系统以获取保单号，一般这个时间间隔会控制在10秒钟内。渠道方需要使用保单查询接口来轮询的方式查询最终保险公司返回的保单号，建议每隔3秒查询一次，最多查询4次。
 
 * 接口地址
 	* 测试环境 https://test.mingzebx.com/api/policies/issuances
@@ -193,7 +193,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY5Njg3MjAsLTEwMDgyMzA2NzMsNT
-YxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5MzA2NTYzNzMsLTE0Nzgy
-Njk3MSwxOTY2Mzg5NDBdfQ==
+eyJoaXN0b3J5IjpbLTU4NDg1MjE5MCwtMTAwODIzMDY3Myw1Nj
+E0MjU3NzQsMTk5MTcxNjQzNSwtMTkzMDY1NjM3MywtMTQ3ODI2
+OTcxLDE5NjYzODk0MF19
 -->
