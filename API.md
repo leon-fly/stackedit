@@ -174,6 +174,9 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |:------------- |:---------------|:-------------|:-------------|
 |policyNo|保单号|String|保险公司返回的保单号|
 |policyStatus|保单状态|String|保单状态|
+|effectiveDate|起保时间|String|采用ISO8601日期格式|
+|expiredDate|终保时间|String|采用ISO8601日期格式|
+|premium|保费|Number|该保单对应的保费|
 
     "policyNo": null,
     "policyStatus": "WAITING_FOR_PAYMENT",
@@ -193,7 +196,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
     "productCode": null,
     "extendInfo": null
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQwMjAwNjIsLTEwMDgyMzA2NzMsNT
+eyJoaXN0b3J5IjpbLTE0OTk0NzMwMTksLTEwMDgyMzA2NzMsNT
 YxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5MzA2NTYzNzMsLTE0Nzgy
 Njk3MSwxOTY2Mzg5NDBdfQ==
 -->
