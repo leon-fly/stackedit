@@ -96,8 +96,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 | 字段  | 字段名  | 类型及长度 | 是否必返回 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|transactionNo|保单交易号|String(128)|√|保单交易号，用于保单查询API的调用|
-|orderNo|保单订单号|String(128)|√|保单对应的订单号，本产品不需此参数|
+|transactionNo|询价交易号|String|√|保单询价交易号|
+|premium|保费|Number|√|询价返回的保费|
 
 ***投保人 policyHolder***
 
@@ -223,8 +223,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjIzNjc2MCwtMTIyMjg3ODA5MSwxOD
-ExNzA0MDM1LDEyMDM4OTEzNTEsOTkwODAzNTQ5LC01ODQ4NTIx
-OTAsLTEwMDgyMzA2NzMsNTYxNDI1Nzc0LDE5OTE3MTY0MzUsLT
-E5MzA2NTYzNzMsLTE0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
+eyJoaXN0b3J5IjpbMTI2MjI4ODMxLC0xMjIyODc4MDkxLDE4MT
+E3MDQwMzUsMTIwMzg5MTM1MSw5OTA4MDM1NDksLTU4NDg1MjE5
+MCwtMTAwODIzMDY3Myw1NjE0MjU3NzQsMTk5MTcxNjQzNSwtMT
+kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
 -->
