@@ -70,6 +70,11 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ## 4. API接口
 
+所有接口提供三套集成环境，相应的服务器地址如下：
+* 测试环境 https://test.mingzebx.com/
+* 预发布环境 https://release.mingzebx.com/
+* 生产环境 https://platform.mingzebx.com/
+
 ### 4.1. 询价接口
 
 暂未实现，稍后提供
@@ -193,7 +198,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDg1MjE5MCwtMTAwODIzMDY3Myw1Nj
-E0MjU3NzQsMTk5MTcxNjQzNSwtMTkzMDY1NjM3MywtMTQ3ODI2
-OTcxLDE5NjYzODk0MF19
+eyJoaXN0b3J5IjpbLTE4NzgzNTE3MjAsLTU4NDg1MjE5MCwtMT
+AwODIzMDY3Myw1NjE0MjU3NzQsMTk5MTcxNjQzNSwtMTkzMDY1
+NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
 -->
