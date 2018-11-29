@@ -116,13 +116,12 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |id|身份证号|String(18)|√|被保人的证件类型及号码，格式为‘ID_CARD:’ + 18位身份证号|
 |phoneNumber|手机号码|String(11)|√|被保人的手机号码|
 
-***保单标的属性insuredObject***
+***保单标的属性properties***
 
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|name|姓名|String|√|被保人姓名|
-|id|身份证号|String(18)|√|被保人的证件类型及号码，格式为‘ID_CARD:’ + 18位身份证号|
-|phoneNumber|手机号码|String(11)|√|被保人的手机号码|
+|IMEI|手机IMEI号|String|√|手机IMEI号|
+|model|手机型号对应的编码|String|√|被保人的证件类型及号码，格式为‘ID_CARD:’ + 18位身份证号|
 
 * 返回参数
 
@@ -206,8 +205,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1NjI2NTMwLDEyMDM4OTEzNTEsOTkwOD
-AzNTQ5LC01ODQ4NTIxOTAsLTEwMDgyMzA2NzMsNTYxNDI1Nzc0
-LDE5OTE3MTY0MzUsLTE5MzA2NTYzNzMsLTE0NzgyNjk3MSwxOT
-Y2Mzg5NDBdfQ==
+eyJoaXN0b3J5IjpbMTExOTkzNzY3OSwxMjAzODkxMzUxLDk5MD
+gwMzU0OSwtNTg0ODUyMTkwLC0xMDA4MjMwNjczLDU2MTQyNTc3
+NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC0xNDc4MjY5NzEsMT
+k2NjM4OTQwXX0=
 -->
