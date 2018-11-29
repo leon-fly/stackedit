@@ -180,8 +180,20 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |premium|保费|Number|该保单对应的保费|
 |productName|产品名称|Number|产品名称|
 
+**保单查询返回示例**
+```
+{
+    "policyNo": null,
+    "policyStatus": "WAITING_FOR_PAYMENT",
+    "underwritingStatus": "PASSED",
+    "effectiveDate": "2018-11-28T16:00:00.000+0000",
+    "expiredDate": "2019-11-28T15:59:59.000+0000",
+    "premium": 0,
+    "productName": "安华手机碎屏险"
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Mzk3NzMzLC0xMDA4MjMwNjczLDU2MT
-QyNTc3NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC0xNDc4MjY5
-NzEsMTk2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbLTEzOTY5Njg3MjAsLTEwMDgyMzA2NzMsNT
+YxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5MzA2NTYzNzMsLTE0Nzgy
+Njk3MSwxOTY2Mzg5NDBdfQ==
 -->
