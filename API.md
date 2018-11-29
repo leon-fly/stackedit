@@ -48,8 +48,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ## 3. 错误处理
 
-当API处理发生错误
-
+当API请求处理发生错误时，API服务器会返回如下例子结构的报文，调用方需根据返回的错误信息l
 ```
 {
     "timestamp": "2018-10-12T08:32:35.726+0000",
@@ -142,6 +141,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTk2MTc5NjQsMTk5MTcxNjQzNSwtMT
-kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
+eyJoaXN0b3J5IjpbMTk2NzYzODAxNSwxOTkxNzE2NDM1LC0xOT
+MwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
 -->
