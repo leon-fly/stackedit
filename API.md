@@ -33,16 +33,8 @@ sequenceDiagram
 
 以保单查询接口为例说明：
 ```
-GET /api/policies/issuances?transactionNo=PA_JUNHANG_AH_SCR2018112900004
-
-{
-...
-}
-```
-
-```
-1.请求URL为 https://test.mingzebx.com/api/policies/issuances/print?policyNumber=123456&accessKey=Q83KAkyo34
-2.获取URL中的参数，然后按照参数名称排序，排序后使用&符号拼接后的结果为 policyNumber=123456&accessKey=Q83KAkyo34
+1. GET请求URL为 https://test.mingzebx.com/api/policies/issuances?transactionNo=PA_JUNHANG_AH_SCR2018112900004
+2.获取URL中的参数，并附加accessKey参数后然后按照参数名称排序，排序后使用&符号拼接后的结果为 policyNumber=123456&accessKey=Q83KAkyo34
 3.将第2步的结果与SECRET_KEY(YtcxtLnPRcll5ceyZBSmWrdRspXcRWac)拼接后即为签名内容： accessKey=Q83KAkyo34&policyNumber= 123456QtixtLnPRcll5cdvZBSmWrdRspXrRWth
 4.将第3步的内容进行MD5运算获得到签名结果:feb072c0e8098899bcaf3bcebcad91f8
 最终的请求URL为 https://test.mingzebx.com/api/policies/issuances/print?policyNumber=123456&accessKey=Q83KAkyo34&signature= feb072c0e8098899bcaf3bcebcad91f8
@@ -143,6 +135,6 @@ GET /api/policies/issuances?transactionNo=PA_JUNHANG_AH_SCR2018112900004
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjkzMTA4MCwxOTkxNzE2NDM1LC0xOT
-MwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbOTg5MTkwNDM4LDE5OTE3MTY0MzUsLTE5Mz
+A2NTYzNzMsLTE0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
 -->
