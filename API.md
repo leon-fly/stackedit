@@ -172,7 +172,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 | 字段 | 字段名 | 类型及长度 | 字段说明 |
 |:------------- |:---------------|:-------------|:-------------|
 |policyNo|保单号|String|保险公司返回的保单号|
-|policyStatus|保单状态|String|保单状态|
+|policyStatus|保单状态|String|保单状态，包含WAITING_FOR_PAYMENT（待支付）、WAITING_FOR_HANDLING、ISSUED|
 |underwritingStatus|核保状态|String|核保状态|
 |effectiveDate|起保时间|String|采用ISO8601日期格式|
 |expiredDate|终保时间|String|采用ISO8601日期格式|
@@ -187,12 +187,13 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
     "underwritingStatus": "PASSED",
     "effectiveDate": "2018-11-28T16:00:00.000+0000",
     "expiredDate": "2019-11-28T15:59:59.000+0000",
-    "premium": 0,
+    "premium": 36,
     "productName": "安华手机碎屏险"
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzg5MTM1MSw5OTA4MDM1NDksLTU4ND
-g1MjE5MCwtMTAwODIzMDY3Myw1NjE0MjU3NzQsMTk5MTcxNjQz
-NSwtMTkzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
+eyJoaXN0b3J5IjpbMTY3ODk4MjM0NywxMjAzODkxMzUxLDk5MD
+gwMzU0OSwtNTg0ODUyMTkwLC0xMDA4MjMwNjczLDU2MTQyNTc3
+NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC0xNDc4MjY5NzEsMT
+k2NjM4OTQwXX0=
 -->
