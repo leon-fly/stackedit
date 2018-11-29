@@ -1,9 +1,10 @@
 
-# 我家加油API
+# 安华手机碎屏险API对接文档
 
-| version  | updated by  | update at | remark |
-|:-------------: |:---------------:| -------------:|-------------:|
-| v1.0      | LeonWang |         20180928 | Create
+
+
+
+
 
 ## 1. 投保接口（支持幂等性）
 * 接口地址 ：https://test.mingzebx.com/api/policies/issuances
@@ -81,11 +82,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTA3MzcyOSw5NjI1OTk2MzgsLTEwOD
-IyMDg5MzAsLTczMzU3MzY4NSwtMTgyNTA2NTc2NSwtNTk1NzI5
-ODc2LDE5NDY0MTQ5MjgsLTEwNTgzNTQ5MjcsLTExNzg0OTU0Nj
-UsLTEyMzU2NzkzMzQsMTM4NTc2MDI3OSwtMTYwMTQ0NjE5MCwt
-MTAzNzk2OTUyLC0xMDQ3MjMzODE1LDEyNDQ5MDc0ODIsLTEzOD
-ExMzc3MDIsLTMwNTM3ODQ1MiwtNTIyODIyMDc2LDE0MzI2NzY5
-MDcsMTQ3MDMxNjQ1Ml19
+eyJoaXN0b3J5IjpbMjUzMjM1MTY1LDk2MjU5OTYzOCwtMTA4Mj
+IwODkzMCwtNzMzNTczNjg1LC0xODI1MDY1NzY1LC01OTU3Mjk4
+NzYsMTk0NjQxNDkyOCwtMTA1ODM1NDkyNywtMTE3ODQ5NTQ2NS
+wtMTIzNTY3OTMzNCwxMzg1NzYwMjc5LC0xNjAxNDQ2MTkwLC0x
+MDM3OTY5NTIsLTEwNDcyMzM4MTUsMTI0NDkwNzQ4MiwtMTM4MT
+EzNzcwMiwtMzA1Mzc4NDUyLC01MjI4MjIwNzYsMTQzMjY3Njkw
+NywxNDcwMzE2NDUyXX0=
 -->
