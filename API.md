@@ -48,7 +48,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ## 3. 错误处理
 
-
+当API处理发生错误
 
 ```
 {
@@ -142,6 +142,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjUyNjUwMywxOTkxNzE2NDM1LC0xOT
-MwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbLTE4OTk2MTc5NjQsMTk5MTcxNjQzNSwtMT
+kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
 -->
