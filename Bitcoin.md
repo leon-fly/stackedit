@@ -24,19 +24,16 @@
 
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|id|身份证号|String(18)|√|
-|name|姓名|String|√|
-|phoneNumber|手机号码|String(11)|√|
+|id|身份证号|String(18)|√||
+|name|姓名|String|√||
+
 ***被保人insuredObject***
 
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|id|身份证号|String(18)|√|
-|personName|姓名|String|√|
-|phoneNumber|手机号码|String(11)|√|
-|relationshipToPolicyHolder|是投保人的什么（关系）|String(2)|√|00:本人  01:丈夫 02:妻子 03：儿子 04：女儿|
-
-
+|name|姓名|String|√|被保人姓名|
+|id|身份证号|String(18)|√|被保人的证件类型及号码|
+|phoneNumber|手机号码|String(11)|√|被保人的手机号码|
 
 * 返回参数
 
@@ -81,7 +78,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODQ5Mjc0MSw5NjI1OTk2MzgsLTEwOD
+eyJoaXN0b3J5IjpbMTMwNzA5NDUzMCw5NjI1OTk2MzgsLTEwOD
 IyMDg5MzAsLTczMzU3MzY4NSwtMTgyNTA2NTc2NSwtNTk1NzI5
 ODc2LDE5NDY0MTQ5MjgsLTEwNTgzNTQ5MjcsLTExNzg0OTU0Nj
 UsLTEyMzU2NzkzMzQsMTM4NTc2MDI3OSwtMTYwMTQ0NjE5MCwt
