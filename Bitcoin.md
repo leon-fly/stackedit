@@ -15,17 +15,17 @@
 |agreementCode|协议号|String|√|由道可特提供给接入方产品对应协议号|
 |refTransactionNo|交易号|String(128)|√|调用方提供的交易单号，一般为调用方系统该保单对应的订单号或流水号；本系统会根据此交易号做幂等性处理|
 |planCode|方案号|String|√|由道可特提供给接入方|
+|effectiveDate|起保时间|String|√|采用ISO8601日期格式|
+|expiredDate|终保时间|String|√|采用ISO8601日期格式|
 |policyHolder|投保人信息|Object|√|详见【投保人policyHolder】
 |insuredObject|被保人信息|Object[]|√|详见【被保人insuredObject】
-|effectiveDate|起保时间|Date|√|采用ISO8601格式|
-|expiredDate|终保时间|Date|√|采用ISO8601格式|
 
 ***投保人policyHolder***
 
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
 |id|身份证号|String(18)|√|
-|personName|姓名|String|√|
+|name|姓名|String|√|
 |phoneNumber|手机号码|String(11)|√|
 ***被保人insuredObject***
 
@@ -81,11 +81,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwODE5NTQ2LDk2MjU5OTYzOCwtMTA4Mj
-IwODkzMCwtNzMzNTczNjg1LC0xODI1MDY1NzY1LC01OTU3Mjk4
-NzYsMTk0NjQxNDkyOCwtMTA1ODM1NDkyNywtMTE3ODQ5NTQ2NS
-wtMTIzNTY3OTMzNCwxMzg1NzYwMjc5LC0xNjAxNDQ2MTkwLC0x
-MDM3OTY5NTIsLTEwNDcyMzM4MTUsMTI0NDkwNzQ4MiwtMTM4MT
-EzNzcwMiwtMzA1Mzc4NDUyLC01MjI4MjIwNzYsMTQzMjY3Njkw
-NywxNDcwMzE2NDUyXX0=
+eyJoaXN0b3J5IjpbMTg5ODQ5Mjc0MSw5NjI1OTk2MzgsLTEwOD
+IyMDg5MzAsLTczMzU3MzY4NSwtMTgyNTA2NTc2NSwtNTk1NzI5
+ODc2LDE5NDY0MTQ5MjgsLTEwNTgzNTQ5MjcsLTExNzg0OTU0Nj
+UsLTEyMzU2NzkzMzQsMTM4NTc2MDI3OSwtMTYwMTQ0NjE5MCwt
+MTAzNzk2OTUyLC0xMDQ3MjMzODE1LDEyNDQ5MDc0ODIsLTEzOD
+ExMzc3MDIsLTMwNTM3ODQ1MiwtNTIyODIyMDc2LDE0MzI2NzY5
+MDcsMTQ3MDMxNjQ1Ml19
 -->
