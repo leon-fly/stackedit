@@ -77,7 +77,10 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.1. 询价接口
 
-暂未实现，稍后提供
+* 接口路径 ：**/api/policies/quotations**
+* 接口说明 ：保单出单接口
+* 请求方式 ：POST
+* 请求参数
 
 ### 4.2. 投保接口（支持幂等性）
 
@@ -194,8 +197,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjAxMDM0NywxMjAzODkxMzUxLDk5MD
-gwMzU0OSwtNTg0ODUyMTkwLC0xMDA4MjMwNjczLDU2MTQyNTc3
-NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC0xNDc4MjY5NzEsMT
-k2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbLTE0NzMxNzQwODUsMTIwMzg5MTM1MSw5OT
+A4MDM1NDksLTU4NDg1MjE5MCwtMTAwODIzMDY3Myw1NjE0MjU3
+NzQsMTk5MTcxNjQzNSwtMTkzMDY1NjM3MywtMTQ3ODI2OTcxLD
+E5NjYzODk0MF19
 -->
