@@ -99,14 +99,14 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
 |name|企业名称|String|√||
-|id|企业的统一社会信用代码|String(18)|√|| 
+|id|企业的统一社会信用代码|String(18)|√|格式为‘SOCIAL_CREDIT:’ + 18位统一社会信用代码|
 
 ***被保人insuredObject***
 
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
 |name|姓名|String|√|被保人姓名|
-|id|身份证号|String(18)|√|被保人的证件类型及号码|
+|id|身份证号|String(18)|√|被保人的证件类型及号码，格式为‘ID_CARD:’ + 18位身份证号|
 |phoneNumber|手机号码|String(11)|√|被保人的手机号码|
 
 * 返回参数
@@ -153,6 +153,6 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDMyODQzMSwxOTkxNzE2NDM1LC0xOT
-MwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbLTExMzkyNDM0NzYsMTk5MTcxNjQzNSwtMT
+kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
 -->
