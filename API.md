@@ -25,7 +25,11 @@
 
 以出单接口为例说明：
 ```
-GET /api/p
+GET /api/policies/issuances
+
+{
+...
+}
 ```
 
 ```
@@ -131,5 +135,5 @@ GET /api/p
 
 ### 4.3 保单查询接口
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUzODY1MjYsMTk2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbLTE0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
 -->
