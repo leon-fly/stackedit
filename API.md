@@ -82,6 +82,29 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 * 请求方式 ：POST
 * 请求参数
 
+***投保人 policyHolder***
+
+| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
+|:------------- |:---------------|:-------------|:-------------:|:---------|
+|name|企业名称|String|√||
+|id|企业的统一社会信用代码|String(18)|√|格式为‘SOCIAL_CREDIT:#{18位统一社会信用代码}’ |
+
+***被保人 insuredPerson***
+
+| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
+|:------------- |:---------------|:-------------|:-------------:|:---------|
+|name|姓名|String|√|被保人姓名|
+|id|身份证号|String(18)|√|被保人的证件类型及号码，格式为‘ID_CARD:#{18位身份证号}’ |
+|phoneNumber|手机号码|String(11)|√|被保人的手机号码|
+
+***保单标的属性 properties***
+
+| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
+|:------------- |:---------------|:-------------|:-------------:|:---------|
+|IMEI|手机IMEI号|String|√|15或17位的手机IMEI号|
+|model|手机型号对应的编码|String|√|手机型号对应的编码|
+
+
 ### 4.2. 投保接口（支持幂等性）
 
 * 接口路径 ：**/api/policies/issuances**
@@ -98,30 +121,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |expiredDate|终保时间|String|√|采用ISO8601日期格式，此产品为起保时间1年后的23:59:59|
 |premium|保费|Number|√|计算获得的保单保费|
 |policyHolder|投保人信息|Object|√|详见【投保人policyHolder】
-|insuredObject|被保人信息|Object[]|√|详见【被保人insuredObject】
+|insuredObject|被保人信息|Object[]|√|详见【被保人insuredPerson】
 |properties|保单标的属性|Object[]|√|详见【保单标的属性properties】
-
-***投保人policyHolder***
-
-| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
-|:------------- |:---------------|:-------------|:-------------:|:---------|
-|name|企业名称|String|√||
-|id|企业的统一社会信用代码|String(18)|√|格式为‘SOCIAL_CREDIT:#{18位统一社会信用代码}’ |
-
-***被保人insuredObject***
-
-| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
-|:------------- |:---------------|:-------------|:-------------:|:---------|
-|name|姓名|String|√|被保人姓名|
-|id|身份证号|String(18)|√|被保人的证件类型及号码，格式为‘ID_CARD:#{18位身份证号}’ |
-|phoneNumber|手机号码|String(11)|√|被保人的手机号码|
-
-***保单标的属性properties***
-
-| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
-|:------------- |:---------------|:-------------|:-------------:|:---------|
-|IMEI|手机IMEI号|String|√|15或17位的手机IMEI号|
-|model|手机型号对应的编码|String|√|手机型号对应的编码|
 
 * 返回参数
 
@@ -205,8 +206,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjI4NzgwOTEsMTgxMTcwNDAzNSwxMj
-AzODkxMzUxLDk5MDgwMzU0OSwtNTg0ODUyMTkwLC0xMDA4MjMw
-NjczLDU2MTQyNTc3NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC
-0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbNDg1OTQ3NDMzLC0xMjIyODc4MDkxLDE4MT
+E3MDQwMzUsMTIwMzg5MTM1MSw5OTA4MDM1NDksLTU4NDg1MjE5
+MCwtMTAwODIzMDY3Myw1NjE0MjU3NzQsMTk5MTcxNjQzNSwtMT
+kzMDY1NjM3MywtMTQ3ODI2OTcxLDE5NjYzODk0MF19
 -->
