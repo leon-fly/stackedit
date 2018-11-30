@@ -146,6 +146,14 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
   }
 }
 ```
+* 成功返回示例
+
+```
+{
+    "transactionNo": "QA_JUNHANG_AH_SCR2018112900001",
+    "premium": 36
+}
+```
 
 ### 4.2. 投保接口（支持幂等性）
 
@@ -249,7 +257,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODQ5Mzk0LDEzNzU4MDA5NiwtMTEwMD
+eyJoaXN0b3J5IjpbNTQ5NjM5MTk3LDEzNzU4MDA5NiwtMTEwMD
 I4NDk3MSwxMjYyMjg4MzEsLTEyMjI4NzgwOTEsMTgxMTcwNDAz
 NSwxMjAzODkxMzUxLDk5MDgwMzU0OSwtNTg0ODUyMTkwLC0xMD
 A4MjMwNjczLDU2MTQyNTc3NCwxOTkxNzE2NDM1LC0xOTMwNjU2
