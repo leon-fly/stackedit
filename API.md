@@ -121,6 +121,31 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |IMEI|手机IMEI号|String|√|15或17位的手机IMEI号|
 |model|手机型号对应的编码|String|√|手机型号对应的编码|
 
+-   请求示例
+```
+{
+  "agreementCode": "A_JUNHANG_AH_SCR",
+  "refTransactionNo": "REF201811280001",
+  "effectiveDate": "2018-11-29T00:00:00.000+0800",
+  "expiredDate": "2019-11-28T23:59:59.000+0800",
+  "planCode": "P_AH_SCR_0",
+  "policyHolder": {
+    "name": "苏宁第一门店",
+    "id": "SOCIAL_CREDIT:9136110206972762X5"
+  },
+  "insuredPersons": [
+    {
+      "name": "小郑",
+      "id": "ID_CARD:320303198111150033",
+      "phoneNumber": "13912345678"
+    }
+  ],
+  "properties": {
+    "IMEI": "1234567890",
+    "model": "iPhone7-001"
+  }
+}
+```
 
 ### 4.2. 投保接口（支持幂等性）
 
@@ -224,9 +249,9 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTgwMDk2LC0xMTAwMjg0OTcxLDEyNj
-IyODgzMSwtMTIyMjg3ODA5MSwxODExNzA0MDM1LDEyMDM4OTEz
-NTEsOTkwODAzNTQ5LC01ODQ4NTIxOTAsLTEwMDgyMzA2NzMsNT
-YxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5MzA2NTYzNzMsLTE0Nzgy
-Njk3MSwxOTY2Mzg5NDBdfQ==
+eyJoaXN0b3J5IjpbMTU5ODQ5Mzk0LDEzNzU4MDA5NiwtMTEwMD
+I4NDk3MSwxMjYyMjg4MzEsLTEyMjI4NzgwOTEsMTgxMTcwNDAz
+NSwxMjAzODkxMzUxLDk5MDgwMzU0OSwtNTg0ODUyMTkwLC0xMD
+A4MjMwNjczLDU2MTQyNTc3NCwxOTkxNzE2NDM1LC0xOTMwNjU2
+MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
 -->
