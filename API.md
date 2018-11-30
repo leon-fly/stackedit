@@ -112,6 +112,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |:------------- |:---------------|:-------------|:-------------:|:---------|
 |name|姓名|String|√|被保人姓名|
 |id|身份证号|String(18)|√|被保人的证件类型及号码，格式为‘ID_CARD:#{18位身份证号}’ |
+|phoneNumber|手机号码|String(11)|√|被保人的手机号码|
 
 ***保单标的属性 properties***
 
@@ -164,7 +165,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
   "insuredPersons": [
     {
       "name": "小郑",
-      "id": "ID_CARD:320303198111150033"
+      "id": "ID_CARD:320303198111150033",
+      "phoneNumber": "13912345678"
     }
   ],
   "properties": {
@@ -178,8 +180,9 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ```
 {
-    "transactionNo": "PA_JUNHANG_AH_SCR2018112900004",
-    "orderNo": "OD2018112900004"
+    "transactionNo": "PA_JUNHANG_AH_SCR2018112900004"
+    "orderNo": "OD2018112900004",
+
 }
 ```
 
@@ -201,12 +204,12 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 | 字段 | 字段名 | 类型及长度 | 字段说明 |
 |:------------- |:---------------|:-------------|:-------------|
 |policyNo|保单号|String|保险公司返回的保单号|
+|productName|产品名称|Number|产品名称|
 |policyStatus|保单状态|String|保单状态，包含WAITING_FOR_PAYMENT（待支付）、WAITING_FOR_HANDLING（待人工处理）、ISSUED（出单成功）|
-|underwritingStatus|核保状态|String|核保状态：FAILED 或 |
+|underwritingStatus|核保状态|String|核保状态：PASSED 或 FAILED|
 |effectiveDate|起保时间|String|采用ISO8601日期格式|
 |expiredDate|终保时间|String|采用ISO8601日期格式|
 |premium|保费|Number|该保单对应的保费|
-|productName|产品名称|Number|产品名称|
 
 **保单查询返回示例**
 ```
@@ -221,9 +224,9 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA2NDkyMDcsLTExMDAyODQ5NzEsMT
-I2MjI4ODMxLC0xMjIyODc4MDkxLDE4MTE3MDQwMzUsMTIwMzg5
-MTM1MSw5OTA4MDM1NDksLTU4NDg1MjE5MCwtMTAwODIzMDY3My
-w1NjE0MjU3NzQsMTk5MTcxNjQzNSwtMTkzMDY1NjM3MywtMTQ3
-ODI2OTcxLDE5NjYzODk0MF19
+eyJoaXN0b3J5IjpbMTM3NTgwMDk2LC0xMTAwMjg0OTcxLDEyNj
+IyODgzMSwtMTIyMjg3ODA5MSwxODExNzA0MDM1LDEyMDM4OTEz
+NTEsOTkwODAzNTQ5LC01ODQ4NTIxOTAsLTEwMDgyMzA2NzMsNT
+YxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5MzA2NTYzNzMsLTE0Nzgy
+Njk3MSwxOTY2Mzg5NDBdfQ==
 -->
