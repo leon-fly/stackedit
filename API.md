@@ -229,7 +229,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
 |policyTransactionNo|保单交易号|String|√|调用保单出单接口返回的保单交易号|
-|refTransactionNo|交易号|String(128)|√|调用方提供的交易单号，一般为调用方系统该保单对应的订单号或流水号；本系统会根据此交易号做幂等性处理|
+|applicationType|保单注销申请类型|String|√|保单注销申请类型：BY_CHANNEL 渠道方申请，BY_CUSTOMER 客户申请，OTHER 其他类型|
 |planCode|方案号|String|√|请填写固定值 P_AH_SCR_0|
 |effectiveDate|起保时间|String|√|采用ISO8601日期格式，此产品为当前出单时间+7天后的零点零分|
 |expiredDate|终保时间|String|√|采用ISO8601日期格式，此产品为起保时间1年后的23:59:59|
@@ -277,7 +277,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDI3MDMwOSwtMzk0NjA0MTg1LDE3OT
+eyJoaXN0b3J5IjpbMjEwNDUzNzg0NSwtMzk0NjA0MTg1LDE3OT
 E4ODQ1MTYsNTQ5NjM5MTk3LDEzNzU4MDA5NiwtMTEwMDI4NDk3
 MSwxMjYyMjg4MzEsLTEyMjI4NzgwOTEsMTgxMTcwNDAzNSwxMj
 AzODkxMzUxLDk5MDgwMzU0OSwtNTg0ODUyMTkwLC0xMDA4MjMw
