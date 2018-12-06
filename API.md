@@ -230,13 +230,14 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |:------------- |:---------------|:-------------|:-------------:|:---------|
 |policyTransactionNo|保单交易号|String|√|调用保单出单接口返回的保单交易号|
 |applicationType|保单注销申请类型|String|√|保单注销申请类型：BY_CHANNEL 渠道方申请，BY_CUSTOMER 客户申请，OTHER 其他类型|
-|planCode|方案号|String|√|请填写固定值 P_AH_SCR_0|
-|effectiveDate|起保时间|String|√|采用ISO8601日期格式，此产品为当前出单时间+7天后的零点零分|
-|expiredDate|终保时间|String|√|采用ISO8601日期格式，此产品为起保时间1年后的23:59:59|
-|premium|保费|Number|√|计算获得的保单保费|
-|policyHolder|投保人信息|Object|√|详见【投保人policyHolder】
-|insuredObject|被保人信息|Object[]|√|详见【被保人insuredPerson】
-|properties|保单标的属性|Object[]|√|详见【保单标的属性properties】
+|applicationReason|保单注销申请原因|String|N|保单注销申请原因|
+
+* 返回参数
+
+| 字段  | 字段名  | 类型及长度 | 是否必返回 |字段说明|
+|:------------- |:---------------|:-------------|:-------------:|:---------|
+|transactionNo|保单交易号|String|√|保单交易号|
+|policyNo|保险公司保单号|String|√|保单对应的订单号，本产品不需此参数|
 
 
 ### 4.4 保单查询接口
@@ -277,10 +278,10 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDUzNzg0NSwtMzk0NjA0MTg1LDE3OT
-E4ODQ1MTYsNTQ5NjM5MTk3LDEzNzU4MDA5NiwtMTEwMDI4NDk3
-MSwxMjYyMjg4MzEsLTEyMjI4NzgwOTEsMTgxMTcwNDAzNSwxMj
-AzODkxMzUxLDk5MDgwMzU0OSwtNTg0ODUyMTkwLC0xMDA4MjMw
-NjczLDU2MTQyNTc3NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC
-0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbNjgzNDA2ODI5LC0zOTQ2MDQxODUsMTc5MT
+g4NDUxNiw1NDk2MzkxOTcsMTM3NTgwMDk2LC0xMTAwMjg0OTcx
+LDEyNjIyODgzMSwtMTIyMjg3ODA5MSwxODExNzA0MDM1LDEyMD
+M4OTEzNTEsOTkwODAzNTQ5LC01ODQ4NTIxOTAsLTEwMDgyMzA2
+NzMsNTYxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5MzA2NTYzNzMsLT
+E0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
 -->
