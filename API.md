@@ -226,6 +226,19 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 * 请求方式 ：POST
 * 请求参数
 
+| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
+|:------------- |:---------------|:-------------|:-------------:|:---------|
+|policyTransactionNo|保单交易号|String|√|调用保单出单接口返回的保单交易号|
+|refTransactionNo|交易号|String(128)|√|调用方提供的交易单号，一般为调用方系统该保单对应的订单号或流水号；本系统会根据此交易号做幂等性处理|
+|planCode|方案号|String|√|请填写固定值 P_AH_SCR_0|
+|effectiveDate|起保时间|String|√|采用ISO8601日期格式，此产品为当前出单时间+7天后的零点零分|
+|expiredDate|终保时间|String|√|采用ISO8601日期格式，此产品为起保时间1年后的23:59:59|
+|premium|保费|Number|√|计算获得的保单保费|
+|policyHolder|投保人信息|Object|√|详见【投保人policyHolder】
+|insuredObject|被保人信息|Object[]|√|详见【被保人insuredPerson】
+|properties|保单标的属性|Object[]|√|详见【保单标的属性properties】
+
+
 ### 4.4 保单查询接口
 
 当渠道方调用保单出单接口后，系统会异步的将保单出单信息发送给保险公司的核心系统以获取保单号，一般这个时间间隔会控制在10秒钟内。渠道方需要使用保单查询接口来轮询的方式查询最终保险公司返回的保单号，建议每隔3秒查询一次，最多查询4次。
@@ -264,10 +277,10 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0NjQyNTc3LC0zOTQ2MDQxODUsMTc5MT
-g4NDUxNiw1NDk2MzkxOTcsMTM3NTgwMDk2LC0xMTAwMjg0OTcx
-LDEyNjIyODgzMSwtMTIyMjg3ODA5MSwxODExNzA0MDM1LDEyMD
-M4OTEzNTEsOTkwODAzNTQ5LC01ODQ4NTIxOTAsLTEwMDgyMzA2
-NzMsNTYxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5MzA2NTYzNzMsLT
-E0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
+eyJoaXN0b3J5IjpbLTk3NDI3MDMwOSwtMzk0NjA0MTg1LDE3OT
+E4ODQ1MTYsNTQ5NjM5MTk3LDEzNzU4MDA5NiwtMTEwMDI4NDk3
+MSwxMjYyMjg4MzEsLTEyMjI4NzgwOTEsMTgxMTcwNDAzNSwxMj
+AzODkxMzUxLDk5MDgwMzU0OSwtNTg0ODUyMTkwLC0xMDA4MjMw
+NjczLDU2MTQyNTc3NCwxOTkxNzE2NDM1LC0xOTMwNjU2MzczLC
+0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
 -->
