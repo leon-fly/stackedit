@@ -221,6 +221,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 本接口用于保单生效前对保单进行注销。如果当前时间已过保单生效开始时间，或者保单的状态为未成功出单，无法对该保单进行注销操作。
 
+调用保单注销接口
+
 * 接口路径 ：**/api/policies/cancellations**
 * 接口说明 ：保单出单接口
 * 请求方式 ：POST
@@ -238,7 +240,9 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |:------------- |:---------------|:-------------|:-------------:|:---------|
 |transactionNo|保单交易号|String|√|保单交易号|
 |policyNo|保险公司保单号|String|√|保险公司保单号|
-|policyStatus|保险公司保单号|String|√|保单状态，包含WAITING_FOR_PAYMENT（待支付）、WAITING_FOR_HANDLING（待人工处理）、ISSUED（出单成功）、TERMINATED (保单中止)|
+|policyStatus|保险公司保单号|String|√|保单状态，包含ISSUED（出单成功）、TERMINATED (保单中止)|
+
+
 
 
 ### 4.4 保单查询接口
@@ -279,10 +283,10 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDk5NTM0LC0zOTQ2MDQxODUsMTc5MT
-g4NDUxNiw1NDk2MzkxOTcsMTM3NTgwMDk2LC0xMTAwMjg0OTcx
-LDEyNjIyODgzMSwtMTIyMjg3ODA5MSwxODExNzA0MDM1LDEyMD
-M4OTEzNTEsOTkwODAzNTQ5LC01ODQ4NTIxOTAsLTEwMDgyMzA2
-NzMsNTYxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5MzA2NTYzNzMsLT
-E0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
+eyJoaXN0b3J5IjpbLTEzNzA5ODY5MzYsLTM5NDYwNDE4NSwxNz
+kxODg0NTE2LDU0OTYzOTE5NywxMzc1ODAwOTYsLTExMDAyODQ5
+NzEsMTI2MjI4ODMxLC0xMjIyODc4MDkxLDE4MTE3MDQwMzUsMT
+IwMzg5MTM1MSw5OTA4MDM1NDksLTU4NDg1MjE5MCwtMTAwODIz
+MDY3Myw1NjE0MjU3NzQsMTk5MTcxNjQzNSwtMTkzMDY1NjM3My
+wtMTQ3ODI2OTcxLDE5NjYzODk0MF19
 -->
