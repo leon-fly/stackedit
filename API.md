@@ -7,7 +7,7 @@
 
 本产品的API对接主要涉及到保单询价、保单出单、保单注销、保单查询共四个接口。其中保单询价用于获取手机碎屏险的价格（基于指定手机的型号），于此同时该接口还会对保单进行核保。上述四个接口调用的基本流程如下：
 
-
+![enter image description here](https://web-1256596879.cos.ap-shanghai.myqcloud.com/docs/%E5%AE%89%E5%8D%8E%E6%B0%B4%E5%B9%B3API%E5%AF%B9%E6%8E%A5%E6%B5%81%E7%A8%8B.png)
 
 ## 2. 数据签名
 
@@ -297,7 +297,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDk0MDI5LDIwNDM2ODUyNjMsMTYxMz
+eyJoaXN0b3J5IjpbNzc3MjI2MDQ0LDIwNDM2ODUyNjMsMTYxMz
 A3MzcwMSwtMTYwNjQ4ODcyNywtMTM3MDk4NjkzNiwtMzk0NjA0
 MTg1LDE3OTE4ODQ1MTYsNTQ5NjM5MTk3LDEzNzU4MDA5NiwtMT
 EwMDI4NDk3MSwxMjYyMjg4MzEsLTEyMjI4NzgwOTEsMTgxMTcw
