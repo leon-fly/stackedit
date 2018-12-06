@@ -221,7 +221,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 本接口用于保单生效前对保单进行注销。如果当前时间已过保单生效开始时间，或者保单的状态为未成功出单，无法对该保单进行注销操作。
 
-调用保单注销接口，系统会采用异步的方式向保险公司发起保单注销请求，所以需要渠道方调用保单注销接口后，再轮询调用保单查询接口获取保单状态，当保单状态变为TERMINATED时，b
+调用保单注销接口，系统会采用异步的方式向保险公司发起保单注销请求，所以需要渠道方调用保单注销接口后，再轮询调用保单查询接口获取保单状态，当保单状态变为TERMINATED时，表示保单已经成功注销。
 
 * 接口路径 ：**/api/policies/cancellations**
 * 接口说明 ：保单出单接口
@@ -242,6 +242,14 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |policyNo|保险公司保单号|String|√|保险公司保单号|
 |policyStatus|保险公司保单号|String|√|保单状态，包含ISSUED（出单成功）、TERMINATED (保单中止)|
 
+* 请求示例
+```
+{
+  "policyTransactionNo": "PA_JUNHANG_AH_SCR2018120600014",
+  "applicationType": "BY_CUSTOMER",
+  "applicationReason": "错误操作"
+}
+```
 
 
 
@@ -283,10 +291,10 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDQwMTA1MywtMTM3MDk4NjkzNiwtMz
-k0NjA0MTg1LDE3OTE4ODQ1MTYsNTQ5NjM5MTk3LDEzNzU4MDA5
-NiwtMTEwMDI4NDk3MSwxMjYyMjg4MzEsLTEyMjI4NzgwOTEsMT
-gxMTcwNDAzNSwxMjAzODkxMzUxLDk5MDgwMzU0OSwtNTg0ODUy
-MTkwLC0xMDA4MjMwNjczLDU2MTQyNTc3NCwxOTkxNzE2NDM1LC
-0xOTMwNjU2MzczLC0xNDc4MjY5NzEsMTk2NjM4OTQwXX0=
+eyJoaXN0b3J5IjpbMzM4MDA3MjAwLC0xMzcwOTg2OTM2LC0zOT
+Q2MDQxODUsMTc5MTg4NDUxNiw1NDk2MzkxOTcsMTM3NTgwMDk2
+LC0xMTAwMjg0OTcxLDEyNjIyODgzMSwtMTIyMjg3ODA5MSwxOD
+ExNzA0MDM1LDEyMDM4OTEzNTEsOTkwODAzNTQ5LC01ODQ4NTIx
+OTAsLTEwMDgyMzA2NzMsNTYxNDI1Nzc0LDE5OTE3MTY0MzUsLT
+E5MzA2NTYzNzMsLTE0NzgyNjk3MSwxOTY2Mzg5NDBdfQ==
 -->
