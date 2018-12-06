@@ -237,7 +237,8 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 | 字段  | 字段名  | 类型及长度 | 是否必返回 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
 |transactionNo|保单交易号|String|√|保单交易号|
-|policyNo|保险公司保单号|String|√|保单对应的订单号，本产品不需此参数|
+|policyNo|保险公司保单号|String|√|保险公司保单号|
+|policyStatus|保险公司保单号|String|√|保单状态，包含WAITING_FOR_PAYMENT（待支付）、WAITING_FOR_HANDLING（待人工处理）、ISSUED（出单成功）、TERMINATED (保单中止)|
 
 
 ### 4.4 保单查询接口
@@ -259,7 +260,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 |:------------- |:---------------|:-------------|:-------------|
 |policyNo|保单号|String|保险公司返回的保单号|
 |productName|产品名称|Number|产品名称|
-|policyStatus|保单状态|String|保单状态，包含WAITING_FOR_PAYMENT（待支付）、WAITING_FOR_HANDLING（待人工处理）、ISSUED（出单成功）|
+|policyStatus|保单状态|String|保单状态，包含WAITING_FOR_PAYMENT（待支付）、WAITING_FOR_HANDLING（待人工处理）、ISSUED（出单成功）、TERMINATED (保单中止)|
 |underwritingStatus|核保状态|String|核保状态：PASSED 或 FAILED|
 |effectiveDate|起保时间|String|采用ISO8601日期格式|
 |expiredDate|终保时间|String|采用ISO8601日期格式|
@@ -278,7 +279,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzNDA2ODI5LC0zOTQ2MDQxODUsMTc5MT
+eyJoaXN0b3J5IjpbMTQ5NDk5NTM0LC0zOTQ2MDQxODUsMTc5MT
 g4NDUxNiw1NDk2MzkxOTcsMTM3NTgwMDk2LC0xMTAwMjg0OTcx
 LDEyNjIyODgzMSwtMTIyMjg3ODA5MSwxODExNzA0MDM1LDEyMD
 M4OTEzNTEsOTkwODAzNTQ5LC01ODQ4NTIxOTAsLTEwMDgyMzA2
