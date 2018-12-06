@@ -164,7 +164,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 | 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
 |agreementCode|协议号|String|√|请填写固定值 A_JUNHANG_AH_SCR|
-|refTransactionNo|交易号|String(128)|√|调用方提供的交易单号，一般为调用方系统该保单对应的订单号或流水号；本系统会根据此交易号做幂等性处理|
+|refTransactionNo|交易号|String|√|调用方提供的交易单号，一般为调用方系统该保单对应的订单号或流水号；本系统会根据此交易号做幂等性处理|
 |planCode|方案号|String|√|请填写固定值 P_AH_SCR_0|
 |effectiveDate|起保时间|String|√|采用ISO8601日期格式，此产品为当前出单时间+7天后的零点零分|
 |expiredDate|终保时间|String|√|采用ISO8601日期格式，此产品为起保时间1年后的23:59:59|
@@ -177,7 +177,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 | 字段  | 字段名  | 类型及长度 | 是否必返回 |字段说明|
 |:------------- |:---------------|:-------------|:-------------:|:---------|
-|transactionNo|保单交易号|String(128)|√|保单交易号，用于保单查询API的调用|
+|transactionNo|保单交易号|String|√|保单交易号，用于保单查询API的调用|
 |orderNo|保单订单号|String(128)|√|保单对应的订单号，本产品不需此参数|
 
 * 请求示例
@@ -297,11 +297,11 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3MjI2MDQ0LDIwNDM2ODUyNjMsMTYxMz
-A3MzcwMSwtMTYwNjQ4ODcyNywtMTM3MDk4NjkzNiwtMzk0NjA0
-MTg1LDE3OTE4ODQ1MTYsNTQ5NjM5MTk3LDEzNzU4MDA5NiwtMT
-EwMDI4NDk3MSwxMjYyMjg4MzEsLTEyMjI4NzgwOTEsMTgxMTcw
-NDAzNSwxMjAzODkxMzUxLDk5MDgwMzU0OSwtNTg0ODUyMTkwLC
-0xMDA4MjMwNjczLDU2MTQyNTc3NCwxOTkxNzE2NDM1LC0xOTMw
-NjU2MzczXX0=
+eyJoaXN0b3J5IjpbLTE4MDAxMzI5OTIsMjA0MzY4NTI2MywxNj
+EzMDczNzAxLC0xNjA2NDg4NzI3LC0xMzcwOTg2OTM2LC0zOTQ2
+MDQxODUsMTc5MTg4NDUxNiw1NDk2MzkxOTcsMTM3NTgwMDk2LC
+0xMTAwMjg0OTcxLDEyNjIyODgzMSwtMTIyMjg3ODA5MSwxODEx
+NzA0MDM1LDEyMDM4OTEzNTEsOTkwODAzNTQ5LC01ODQ4NTIxOT
+AsLTEwMDgyMzA2NzMsNTYxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5
+MzA2NTYzNzNdfQ==
 -->
