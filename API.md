@@ -7,7 +7,7 @@
 
 本产品的API对接主要涉及到保单询价、保单出单、保单注销、保单查询共四个接口。其中保单询价用于获取手机碎屏险的价格（基于指定手机的型号），于此同时该接口还会对保单进行核保。上述四个接口调用的基本流程如下：
 
-![enter image description here](http://web-1256596879.file.myqcloud.com/docs/mermaid-diagram-20181129160154.png)
+
 
 ## 2. 数据签名
 
@@ -191,7 +191,7 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
   "premium": 36,
   "planCode": "P_AH_SCR_0",
   "policyHolder": {
-    "name": "杭州骏杭智能科技有限公",
+    "name": "杭州骏杭智能科技有限公司",
     "id": "SOCIAL_CREDIT:91330108MA2CET7U7W"
   },
   "insuredPersons": [
@@ -297,11 +297,11 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzMzMjgzMzMsMjA0MzY4NTI2MywxNj
-EzMDczNzAxLC0xNjA2NDg4NzI3LC0xMzcwOTg2OTM2LC0zOTQ2
-MDQxODUsMTc5MTg4NDUxNiw1NDk2MzkxOTcsMTM3NTgwMDk2LC
-0xMTAwMjg0OTcxLDEyNjIyODgzMSwtMTIyMjg3ODA5MSwxODEx
-NzA0MDM1LDEyMDM4OTEzNTEsOTkwODAzNTQ5LC01ODQ4NTIxOT
-AsLTEwMDgyMzA2NzMsNTYxNDI1Nzc0LDE5OTE3MTY0MzUsLTE5
-MzA2NTYzNzNdfQ==
+eyJoaXN0b3J5IjpbLTYwNDk0MDI5LDIwNDM2ODUyNjMsMTYxMz
+A3MzcwMSwtMTYwNjQ4ODcyNywtMTM3MDk4NjkzNiwtMzk0NjA0
+MTg1LDE3OTE4ODQ1MTYsNTQ5NjM5MTk3LDEzNzU4MDA5NiwtMT
+EwMDI4NDk3MSwxMjYyMjg4MzEsLTEyMjI4NzgwOTEsMTgxMTcw
+NDAzNSwxMjAzODkxMzUxLDk5MDgwMzU0OSwtNTg0ODUyMTkwLC
+0xMDA4MjMwNjczLDU2MTQyNTc3NCwxOTkxNzE2NDM1LC0xOTMw
+NjU2MzczXX0=
 -->
