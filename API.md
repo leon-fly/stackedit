@@ -5,7 +5,7 @@
 
 ## 1. 对接流程
 
-本产品的API对接主要涉及到保单询价、保单出单、保单注销、保单查询共四个接口。其中保单询价用于获取手机碎屏险的价格（基于指定手机的型号），于此同时该接口还会对保单进行核保。上述四个接口调用的基本流程如下：
+本产品的API对接主要涉及到保单询价、保单出单、保单注销、保单查询共四个接口。其中保单询价用于获取手机碎屏险的价格（基于指定手机的型号），于此同时该接口还会对保单进行核保。上述四个接口调用的基本流程如下：  
 
 ![enter image description here](https://web-1256596879.cos.ap-shanghai.myqcloud.com/docs/%E5%AE%89%E5%8D%8E%E6%B0%B4%E5%B9%B3API%E5%AF%B9%E6%8E%A5%E6%B5%81%E7%A8%8B.png)
 
@@ -297,11 +297,11 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTMxODgwOCw1MDc4MTk0NzUsMTM3Nz
-M0MzEyNyw1NDIxOTYwODgsMjA0MzY4NTI2MywxNjEzMDczNzAx
-LC0xNjA2NDg4NzI3LC0xMzcwOTg2OTM2LC0zOTQ2MDQxODUsMT
-c5MTg4NDUxNiw1NDk2MzkxOTcsMTM3NTgwMDk2LC0xMTAwMjg0
-OTcxLDEyNjIyODgzMSwtMTIyMjg3ODA5MSwxODExNzA0MDM1LD
-EyMDM4OTEzNTEsOTkwODAzNTQ5LC01ODQ4NTIxOTAsLTEwMDgy
-MzA2NzNdfQ==
+eyJoaXN0b3J5IjpbLTkyMTYyODg4OCwtNDgxMzE4ODA4LDUwNz
+gxOTQ3NSwxMzc3MzQzMTI3LDU0MjE5NjA4OCwyMDQzNjg1MjYz
+LDE2MTMwNzM3MDEsLTE2MDY0ODg3MjcsLTEzNzA5ODY5MzYsLT
+M5NDYwNDE4NSwxNzkxODg0NTE2LDU0OTYzOTE5NywxMzc1ODAw
+OTYsLTExMDAyODQ5NzEsMTI2MjI4ODMxLC0xMjIyODc4MDkxLD
+E4MTE3MDQwMzUsMTIwMzg5MTM1MSw5OTA4MDM1NDksLTU4NDg1
+MjE5MF19
 -->
