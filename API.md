@@ -101,10 +101,12 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
 
 ***投保人 policyHolder***
 
-| 字段  | 字段名  | 类型及长度 | 是否必填 |字段说明|
-|:------------- |:---------------|:-------------|:-------------:|:---------|
-|name|企业名称|String|√|公司名称|
-|id|企业的统一社会信用代码|String(18)|√|格式为‘SOCIAL_CREDIT:#{18位统一社会信用代码}’ |
+|    字段     |         字段名         | 类型及长度 | 是否必填 |                   字段说明                    |
+| :---------- | :--------------------- | :--------- | :------: | :-------------------------------------------- |
+| name        | 名称               | String     |    √     | 姓名                                   |
+| id          | 证件号 | String(18) |    √     | 证件类型只能为身份证 |
+| email       | 邮件                   | String     |    √     | 由于接收邮件通知                              |
+| phoneNumber | 手机号                 | String(11) |    √     | 用于接收通知短信                              |
 
 ***被保人 insuredPerson***
 
@@ -193,15 +195,17 @@ accessKey=Q83KAkyo34&transactionNo=PA_JUNHANG_AH_SCR2018112900004YtcxtLnPRcll5ce
   "premium": 36,
   "planCode": "P_AH_SCR_0",
   "policyHolder": {
-    "name": "杭州骏杭智能科技有限公司",
-    "id": "SOCIAL_CREDIT:91330108MA2CET7U7W"
-  },
+     "id": "ID_CARD:341221199104026778",
+     "name": "王先森",
+     "phoneNumber": "19921030000",
+     "email": "123@sina.com"
+   },
   "insuredPersons": [
     {
-      "name": "小郑",
-      "id": "ID_CARD:320303198111150033",
-      "phoneNumber": "13912345678",
-      "email":"example@qq.com"
+            "id": "ID_CARD:341221199104026778",
+            "name": "王先森",
+            "phoneNumber": "19921030000",
+            "email": "123@sina.com"
     }
   ],
   "properties": {
